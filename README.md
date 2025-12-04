@@ -33,6 +33,7 @@ Alle benodigde plugins, WordPress-versies, PHP-versies en child-theme instelling
 
 ## 🧱 3. Structuur van het project
 
+```
 /wp-content
 /themes
 /astra
@@ -43,7 +44,7 @@ js/
 custom.js
 header-animations.js
 assets/
-
+```
 ---
 
 ## 🔧 4. Installatie-handleiding
