@@ -3,6 +3,8 @@
 Deze README beschrijft hoe de WordPress-site van **De Regenboog** lokaal ontwikkeld, overgezet en live geïnstalleerd moet worden.  
 Alle benodigde plugins, WordPress-versies, PHP-versies en child-theme instellingen worden hieronder toegelicht.
 
+![Homepage screenshot](assets/screenshot-homepage.png)
+
 ---
 
 ## 📦 1. Systeemvereisten
