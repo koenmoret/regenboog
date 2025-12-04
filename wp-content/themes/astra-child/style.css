@@ -1,0 +1,190 @@
+/*
+Theme Name: Astra Child
+Description: Child theme voor Astra
+Author: Regenboog
+Template: astra
+Version: 1.0.0
+*/
+
+/* =======================
+   ALGEMEEN
+======================= */
+
+#ast-desktop-header .main-header-menu .menu-link:focus-visible {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(29, 78, 150, 0.3) !important;
+    border-radius: 4px !important;
+}
+
+/* =======================
+   HEADER ANIMATIE
+======================= */
+
+.ast-primary-header-bar {
+    border-bottom: none;
+    opacity: 0;
+    transform: translateY(-15px);
+}
+
+img.custom-logo {
+    opacity: var(--fadeIn, 1);
+    display: block;
+}
+
+/* =======================
+   DESKTOP MENU
+======================= */
+
+#ast-desktop-header .main-header-menu > .menu-item > .menu-link {
+    font-weight: 700;
+    padding: 0 20px;
+    color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+#ast-desktop-header .main-header-menu > .menu-item > .menu-link:hover {
+    color: #1D4E96;
+}
+
+/* —— Live stream knop —— */
+
+#ast-desktop-header .last-menu-item > a.menu-link {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    padding: 0 26px !important;
+    border: 2px solid #5EC0CF;
+    border-radius: 999px;
+    color: #1D4E96 !important;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#ast-desktop-header .last-menu-item > a.menu-link::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url("http://localhost/regenboog/wp-content/uploads/2025/12/camera.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(5px);
+}
+
+#ast-desktop-header .last-menu-item > a.menu-link:hover {
+    border-color: #163b73;
+    color: #163b73 !important;
+    transform: scale(1.02);
+    transition: 0.1s ease-out;
+}
+
+#ast-desktop-header .last-menu-item {
+    padding: 0 !important;
+}
+
+/* ================================
+   MOBILE FULLSCREEN MENU
+================================ */
+#menu-toggle-close {
+  display: none;
+}
+.ast-mobile-popup-header {
+    background-image: url("http://localhost/regenboog/wp-content/uploads/2025/12/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;   
+    background-size: contain;            
+    height: 140px;                         
+    width: 100%;
+    opacity: 0;
+    transform: scale(0.95);
+
+    transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+#ast-mobile-popup.active .ast-mobile-popup-header {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Titel bovenaan */
+.menu-title-regenboog {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 35px 25px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    color: #1A1A1A;
+    list-style: none;
+}
+
+.ast-mobile-popup-drawer.active .ast-mobile-popup-content {
+    transform: translateX(0);
+}
+
+/* Borders onder menu items */
+#ast-hf-mobile-menu .menu-item {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#ast-hf-mobile-menu .menu-item a {
+    padding-left: 35px;
+}
+
+/* -------------------------------
+   Flex structuur voor content + toolbar
+--------------------------------*/
+
+#ast-mobile-popup .ast-mobile-popup-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 50px 0 100px 0;
+}
+
+/* ================================
+   MOBILE TOOLBAR ONDERAAN
+================================ */
+
+.regenboog-mobile-toolbar {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    gap: 0;
+
+    padding: 14px 0;
+    z-index: 999;
+}
+
+/* Toolbar knoppen */
+
+.regenboog-mobile-toolbar .toolbar-btn {
+    width: 55px;
+    height: 55px;
+    background: #1D4E96;
+    border-radius: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-right: 1px solid #bdbdbd;
+    transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.regenboog-mobile-toolbar .toolbar-btn:hover {
+    transform: scale(1.09);
+    background: #163b73;
+}
+

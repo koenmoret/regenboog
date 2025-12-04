@@ -1,0 +1,2343 @@
+# Translation of Plugins - FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-28 11:34:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider - Stable (latest release)\n"
+
+#: app/Services/Mailer/Providers/config.php:64
+msgid "Asia Pacific (Osaka)"
+msgstr "Azië-Pacific (Osaka)"
+
+#: app/Services/TransStrings.php:352
+msgid "force_sender_tooltip"
+msgstr "force_sender_tooltip"
+
+#: app/Services/TransStrings.php:351
+msgid "delete_logs_info"
+msgstr "verwijder_logs_info"
+
+#: app/Services/TransStrings.php:346
+msgid "change"
+msgstr "wijzigen"
+
+#: app/Services/TransStrings.php:328
+msgid "Please view the %1$s first. If you still can't find the answer, %2$s and we will be happy to assist you with any problems."
+msgstr "Bekijk eerst de %1$s. Als je het antwoord nog steeds niet kunt vinden, %2$s en we helpen je graag met eventuele problemen."
+
+#: app/Services/TransStrings.php:320
+msgid "Get real-time notification on your favorite messaging channel on any email sending failure. Configure any of the following channel to start getting real time notifications."
+msgstr "Verkrijg realtime meldingen op je favoriete berichtkanaal als e-mail verzenden mislukt. Configureer een van de volgende kanalen om real-time meldingen te verkrijgen."
+
+#: app/Services/TransStrings.php:294
+msgid "__DEFAULT_MAIl_WARNING"
+msgstr "__DEFAULT_MAIl_WARNING"
+
+#: app/Services/TransStrings.php:276
+msgid "Wednesday"
+msgstr "woensdag"
+
+#: app/Services/TransStrings.php:271
+msgid "Tuesday"
+msgstr "dinsdag"
+
+#: app/Services/TransStrings.php:263
+msgid "Thursday"
+msgstr "donderdag"
+
+#: app/Services/TransStrings.php:254
+msgid "Sunday"
+msgstr "zondag"
+
+#: app/Services/TransStrings.php:226
+msgid "Send To"
+msgstr "Verzenden naar"
+
+#: app/Services/TransStrings.php:212
+msgid "Saturday"
+msgstr "zaterdag"
+
+#: app/Services/TransStrings.php:210
+msgid "SMTP2GO API Settings"
+msgstr "SMTP2GO API instellingen"
+
+#: app/Services/TransStrings.php:198
+msgid "Recommended Plugin"
+msgstr "Aanbevolen plugin"
+
+#: app/Services/TransStrings.php:196
+msgid "Real-Time Email Failure Notifications"
+msgstr "Real-time meldingen bij e-mail mislukkingen"
+
+#: app/Services/TransStrings.php:179
+msgid "Oops!"
+msgstr "Oeps!"
+
+#: app/Services/TransStrings.php:171
+msgid "Monday"
+msgstr "maandag"
+
+#: app/Services/TransStrings.php:165
+msgid "Mailer"
+msgstr "Mailer"
+
+#: app/Services/TransStrings.php:153
+msgid "Installing... Please wait"
+msgstr "Installeren... Even geduld"
+
+#: app/Services/TransStrings.php:145
+msgid "Great!"
+msgstr "Geweldig!"
+
+#: app/Services/TransStrings.php:143
+msgid "Getting Started"
+msgstr "Ga aan de slag"
+
+#: app/Services/TransStrings.php:137
+msgid "Functionalities"
+msgstr "Functionaliteiten"
+
+#: app/Services/TransStrings.php:133
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: app/Services/TransStrings.php:128
+msgid "Follow this link to get an API Key from SMTP2GO:"
+msgstr "Volg deze link om een API-sleutel te verkrijgen van SMTP2GO:"
+
+#: app/Services/TransStrings.php:84
+msgid "Delete All Logs"
+msgstr "Verwijder alle logs"
+
+#: app/Services/TransStrings.php:79
+msgid "Cumulative"
+msgstr "Cumulatief"
+
+#: app/Services/TransStrings.php:70
+msgid "Connect With Your Email Providers"
+msgstr "Verbinding maken met je e-mailproviders"
+
+#: app/Services/TransStrings.php:68
+msgid "Community"
+msgstr "Community"
+
+#: app/Services/TransStrings.php:34
+msgid "Add Multi-Part Plain Text for HTML Emails (beta)"
+msgstr "Meervoudige platte tekst toevoegen voor HTML e-mails (bèta)"
+
+#: app/Services/TransStrings.php:22
+msgid "Access Data: Active SMTP Connection Provider, installed plugin names, php & mysql version"
+msgstr "Toegangsgegevens: actieve SMTP verbinding provider, geïnstalleerde plugin namen, PHP & mysql versie"
+
+#: app/Services/TransStrings.php:16
+msgid "(Optional) Share Non - Sensitive Data.It will help us to improve the integrations"
+msgstr "(Optioneel) deel niet-gevoelige gegevens. Dit zal ons helpen om de integraties te verbeteren"
+
+#: app/Services/TransStrings.php:11
+msgid " - Simulated"
+msgstr " - Gesimuleerd"
+
+#: app/Services/Mailer/Providers/Smtp2Go/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_SMTP2GO_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_SMTP2GO_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/config.php:180
+msgid "SMTP2GO"
+msgstr "SMTP2GO"
+
+#: app/Services/Mailer/Providers/config.php:29
+msgid " for how to configure any SMTP with FluentSMTP."
+msgstr " voor hoe je een SMTP met FluentSMTP configureert."
+
+#: app/Http/Controllers/SettingsController.php:489
+msgid "You are subscribed to plugin update and monthly tips"
+msgstr "Je bent geabonneerd op plugin update en maandelijkse tips"
+
+#: app/Http/Controllers/SettingsController.php:473
+msgid "Sorry! The provider email is not valid"
+msgstr "De e-mail van de provider is ongeldig"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:369
+msgid "Loading data..."
+msgstr "Gegevens aan het laden..."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:236
+msgid "Write a review ★★★★★"
+msgstr "Schrijf een beoordeling ★★★★★"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:235
+msgid "(Learn why it's free)"
+msgstr "(lees waarom het gratis is)"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:233
+msgid "%1$s is a free plugin & it will be always free %2$s. %3$s"
+msgstr "%1$s is een gratis plugin & het zal altijd gratis zijn %2$s. %3$s"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:96
+msgid "You do not have permission to see this data"
+msgstr "Je hebt geen toestemming om deze gegevens te zien"
+
+#: app/Services/NotificationHelper.php:314
+#: app/Services/NotificationHelper.php:378
+msgid "[%s] Failed to send email"
+msgstr "[%s] kon e-mail niet verzenden"
+
+#: app/Models/Traits/SendTestEmailTrait.php:13
+msgid "Fluent SMTP: Test Email - %s"
+msgstr "Fluent SMTP: test e-mail - %s"
+
+#: app/Http/Controllers/LoggerController.php:109
+msgid " And %d emails are failed to init the emails"
+msgstr " En %d e-mails zijn mislukt om de e-mails te initiëren"
+
+#: app/Http/Controllers/LoggerController.php:105
+msgid " But %d emails are reported to failed to send."
+msgstr " Maar %d e-mails worden gerapporteerd als niet verzonden."
+
+#: app/Http/Controllers/LoggerController.php:46
+msgid "%s deleted successfully."
+msgstr "%s succesvol verwijderd."
+
+#: app/Services/TransStrings.php:310
+msgid "If you are operating under EU laws, you may be required to use the EU region. %s."
+msgstr "Als je onder EU wetgeving werkt, kan het nodig zijn om EU regio te gebruiken. %s."
+
+#: app/Services/TransStrings.php:306
+msgid "Google API version has been upgraded. Please %s."
+msgstr "De versie van Google API heeft een upgrade gekregen. %s."
+
+#: app/Services/TransStrings.php:305
+msgid "Please %s to create API keys on the Google Cloud Platform."
+msgstr "%s om API-sleutels aan te maken op het Google cloud platform."
+
+#: app/Services/TransStrings.php:333
+msgid "I agree to the %s of this Telegram integration."
+msgstr "Ik ga akkoord met de %s van deze Telegram integratie."
+
+#: app/Services/TransStrings.php:331
+msgid "Please find %s on Telegram and send the following text to activate this connection."
+msgstr "Zoek %s op Telegram en verzend de volgende tekst om deze verbinding te activeren."
+
+#: app/Services/TransStrings.php:307
+msgid "If you are a developer and would like to contribute to the project, please %s"
+msgstr "Als je een ontwikkelaar bent en wil bijdragen aan het project, %s"
+
+#: app/Services/TransStrings.php:325
+msgid "I agree to the %1$s of this Slack integration."
+msgstr "Ik ben het eens met de %1$s van deze slack integratie."
+
+#: app/Services/TransStrings.php:330
+msgid "Get real-time notifications on your %1$s for any email sending failures. Configure notifications with FluentSMTP's official %2$s to start receiving real-time alerts."
+msgstr "Verkrijg realtime meldingen op je %1$s voor mislukte e-mails verzenden. Configureer meldingen met FluentSMTP's officiële %2$s om real-time meldingen te ontvangen."
+
+#: app/Services/TransStrings.php:329
+msgid "Your FluentSMTP plugin is currently integrated with Telegram. Receive timely notifications from %s on Telegram for any email sending issues from your website. This ongoing connection ensures you're always informed about your email delivery status."
+msgstr "Je FluentSMTP plugin is nu geïntegreerd met Telegram. Ontvang tijdig meldingen van %s op Telegram voor problemen met het verzenden van e-mails vanaf je site. Deze doorlopende verbinding zorgt ervoor dat je altijd op de hoogte bent van de afleverstatus van je e-mail."
+
+#: app/Services/TransStrings.php:322
+msgid "Return Path indicates where non-delivery receipts—or bounce messages—%1$s are to be sent. If unchecked, bounce messages may be lost. With this enabled, %2$s you'll be emailed using \"From Email\" if any messages bounce due to issues with the recipient's email."
+msgstr "Retour pad geeft aan waar niet-aflever bevestigingen - of bounce berichten - %1$s moeten worden verzonden. Als deze optie niet is aangevinkt, kunnen bounce berichten verloren gaan. Als dit is ingeschakeld, wordt %2$s je gemaild met \"Van e-mail\" als er berichten bouncen als gevolg van problemen met de e-mail van de ontvanger."
+
+#: app/views/admin/ses_connection_info.php:59
+msgid "Increase Sending Limits"
+msgstr "Verhoog verzendlimieten"
+
+#: app/views/admin/ses_connection_info.php:56
+msgid "Read More here."
+msgstr "Lees hier meer."
+
+#: app/views/admin/ses_connection_info.php:56
+msgid "Looks like you are in sandbox mode. Please apply to Amazon AWS to approve your account. "
+msgstr "Het lijkt erop dat je in sandbox modus bent. Vraag goedkeuring aan bij Amazon AWS om je account goed te keuren "
+
+#: app/views/admin/ses_connection_info.php:43
+msgid "Valid Sending Emails"
+msgstr "Geldig e-mails verzenden"
+
+#: app/views/admin/ses_connection_info.php:26
+msgid "Max Sending Rate"
+msgstr "Maximale verzendsnelheid"
+
+#: app/views/admin/ses_connection_info.php:20
+msgid "Sent in last 24 hours"
+msgstr "Verzonden in de laatste 24 uur"
+
+#: app/views/admin/ses_connection_info.php:14
+msgid "Max Send in 24 hours"
+msgstr "Max. verzenden binnen 24 uur"
+
+#: app/views/admin/ses_connection_info.php:4
+msgid "Connection Error: "
+msgstr "Fout bij verbinding: "
+
+#: app/views/admin/general_connection_info.php:8
+#: app/views/admin/ses_connection_info.php:31
+msgid "Sender Email"
+msgstr "E-mail afzender"
+
+#: app/views/admin/general_connection_info.php:4
+#: app/views/admin/ses_connection_info.php:9
+msgid "Connection Type"
+msgstr "Verbindingstype"
+
+#: app/views/admin/email_html.php:53
+msgid "PS: if you have a minute please "
+msgstr "PS: als je een minuut hebt "
+
+#: app/views/admin/email_html.php:42
+msgid "This email was sent from "
+msgstr "Deze e-mail is verzonden vanaf "
+
+#: app/views/admin/email_html.php:30
+msgid "Learn why it's free"
+msgstr "Leer waarom het gratis is"
+
+#: app/views/admin/email_html.php:30
+msgid "FluentSMTP is a free opensource plugin and it will be always free "
+msgstr "FluentSMTP is een gratis open source plugin en het zal altijd gratis blijven "
+
+#: app/views/admin/email_html.php:30
+msgid "Thank you for using Fluent SMTP Plugin. The ultimate SMTP plugin you need for making sure your emails are delivered."
+msgstr "Bedankt voor het gebruik van Fluent SMTP plugin. De ultieme SMTP plugin die je nodig hebt om ervoor te zorgen dat je e-mails worden afgeleverd."
+
+#: app/views/admin/email_html.php:27
+msgid "Congrats, test email was sent successfully!"
+msgstr "Gefeliciteerd, test e-mail is succesvol verzonden!"
+
+#: app/views/admin/email_html.php:7
+msgid "FluentSMTP Test Email"
+msgstr "FluentSMTP test e-mail"
+
+#: app/views/admin/digest_email.php:200
+msgid "You received this email because the Email Sending Health Report is enabled in your FluentSMTP settings. Simply turn it off to stop these emails at "
+msgstr "Je hebt deze e-mail ontvangen omdat het E-mail verzenden gezondheidsrapport is ingeschakeld in je FluentSMTP instellingen. Zet het gewoon uit om deze e-mails te stoppen bij "
+
+#: app/views/admin/digest_email.php:82
+msgid "Email Sending Health"
+msgstr "E-mail verzendgezondheid"
+
+#: app/views/admin/digest_email.php:7
+msgid "FluentSMTP Email Health Report"
+msgstr "FluentSMTP e-mail gezondheidsrapport"
+
+#: app/Services/NotificationHelper.php:386
+msgid "[View Failed Email(s)]("
+msgstr "[Bekijk mislukte e-mail(s)]("
+
+#: app/Services/NotificationHelper.php:385
+msgid "**Error Message:** ```"
+msgstr "**Foutmelding:** ```"
+
+#: app/Services/NotificationHelper.php:384
+msgid "**Email Subject:** "
+msgstr "**E-mail onderwerp:** "
+
+#: app/Services/NotificationHelper.php:383
+msgid "**To Email Address:** "
+msgstr "**Naar e-mailadres:** "
+
+#: app/Services/NotificationHelper.php:382
+msgid "**Sending Driver:** "
+msgstr "**Verzendende driver:** "
+
+#: app/Services/NotificationHelper.php:381
+msgid "**Website URL:** "
+msgstr "**Site URL:** "
+
+#: app/Services/Mailer/Providers/SparkPost/Handler.php:79
+msgid "SparkPost API Error"
+msgstr "SparkPost API-fout"
+
+#: app/Services/Mailer/Providers/Simulator/Handler.php:31
+msgid "Email sending was simulated, No Email was sent originally"
+msgstr "E-mail verzenden was gesimuleerd, er is oorspronkelijk geen e-mail verzonden"
+
+#: app/Services/Mailer/Providers/SendInBlue/Handler.php:90
+msgid "SendInBlueError API Error"
+msgstr "SendInBlueError API fout"
+
+#: app/Services/Mailer/Providers/Outlook/API.php:76
+msgid "Something with wrong with Outlook API. Please check your API Settings"
+msgstr "Er is iets mis met Outlook API. Controleer je API-instellingen"
+
+#: app/Services/Mailer/Providers/Mailgun/Handler.php:108
+#: app/Services/Mailer/Providers/TransMail/Handler.php:113
+msgid "Mailgun API Error"
+msgstr "Mailgun API-fout"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:323
+msgid "Invalid. Please re-authenticate"
+msgstr "Ongeldig. Authenticeer opnieuw"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:282
+msgid "Failed to renew token with Gmail Api"
+msgstr "Mislukt om token te vernieuwen met Gmail API"
+
+#: app/Services/Mailer/Providers/Factory.php:45
+msgid "There is no matching provider found by email: "
+msgstr "Er is geen overeenkomende provider gevonden via e-mail: "
+
+#: app/Services/Mailer/Providers/config.php:176
+msgid " for how to configure Elastic Email with FluentSMTP."
+msgstr " voor hoe Elastic Email te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:161
+msgid " for how to configure Postmark with FluentSMTP."
+msgstr " voor hoe Postmark te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:144
+msgid " for how to configure Netcore (formerly Pepipost) with FluentSMTP."
+msgstr " voor hoe Netcore (voorheen Pepibericht) te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:130
+msgid " for how to configure SparkPost with FluentSMTP."
+msgstr " voor hoe SparkBericht te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:116
+msgid " for how to configure Sendinblue with FluentSMTP."
+msgstr " voor hoe Sendinblue te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:102
+msgid " for how to configure SendGrid with FluentSMTP."
+msgstr " voor hoe SendRaster te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:88
+msgid " for how to configure Mailgun with FluentSMTP."
+msgstr " voor hoe Mailgun te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/config.php:71
+msgid " for how to configure Amazon SES with FluentSMTP."
+msgstr " voor hoe Amazon SES te configureren met FluentSMTP."
+
+#: app/Services/Mailer/Providers/AmazonSes/Validator.php:50
+msgid "The from email is not verified"
+msgstr "De van e-mail is niet geverifieerd"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:283
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:288
+msgid "Email does not exists. Please try again."
+msgstr "E-mail bestaat niet. Probeer het opnieuw."
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:276
+msgid "Sorry! you can not remove this email from this connection"
+msgstr "Je kunt deze e-mail niet verwijderen uit deze verbinding"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:251
+msgid "Email address already exists with another connection. Please choose a different email."
+msgstr "E-mailadres bestaat al met een andere verbinding. Kies een ander e-mailadres."
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:244
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:272
+msgid "Invalid email address! Please use a verified domain."
+msgstr "Ongeldig e-mailadres! Gebruik een geverifieerd domein."
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:26
+#: app/Services/Mailer/Providers/DefaultMail/Handler.php:16
+#: app/Services/Mailer/Providers/ElasticMail/Handler.php:24
+#: app/Services/Mailer/Providers/Gmail/Handler.php:18
+#: app/Services/Mailer/Providers/Mailgun/Handler.php:27
+#: app/Services/Mailer/Providers/Outlook/Handler.php:20
+#: app/Services/Mailer/Providers/PepiPost/Handler.php:26
+#: app/Services/Mailer/Providers/Postmark/Handler.php:22
+#: app/Services/Mailer/Providers/SendGrid/Handler.php:26
+#: app/Services/Mailer/Providers/SendInBlue/Handler.php:34
+#: app/Services/Mailer/Providers/Smtp/Handler.php:23
+#: app/Services/Mailer/Providers/Smtp2Go/Handler.php:24
+#: app/Services/Mailer/Providers/SparkPost/Handler.php:26
+#: app/Services/Mailer/Providers/TransMail/Handler.php:23
+msgid "Something went wrong!"
+msgstr "Er is iets misgegaan!"
+
+#: app/Services/Mailer/BaseHandler.php:442
+#: app/Services/Mailer/BaseHandler.php:447
+msgid "Not implemented"
+msgstr "Niet geïmplementeerd"
+
+#: app/Services/Mailer/BaseHandler.php:309
+msgid "Tried to send using fallback but failed. "
+msgstr "Geprobeerd te verzenden met fallback maar mislukt. "
+
+#: app/Services/Mailer/BaseHandler.php:306
+msgid "Sent using fallback connection "
+msgstr "Verzonden met behulp van fallback verbinding "
+
+#: app/Services/Converter.php:404
+msgid "Import From Easy WP SMTP"
+msgstr "Importeer van Easy WP SMTP"
+
+#: app/Services/Converter.php:400
+msgid "Import data from your current plugin (Easy WP SMTP)"
+msgstr "Importeer gegevens van je huidige plugin (Easy WP SMTP)"
+
+#: app/Services/Converter.php:111
+msgid "Import From WP Mail SMTP"
+msgstr "Importeer van WP Mail SMTP"
+
+#: app/Services/Converter.php:109 app/Services/Converter.php:401
+msgid "We have detected other SMTP plugin's settings available on your site. Click bellow to pre-populate the values"
+msgstr "We hebben andere SMTP plugin instellingen gedetecteerd op je site. Klik hieronder om de waarden vooraf in te vullen"
+
+#: app/Services/Converter.php:108
+msgid "Import data from your current plugin (WP Mail SMTP)"
+msgstr "Importeer gegevens van je huidige plugin (WP Mail SMTP)"
+
+#: app/Http/Controllers/SettingsController.php:683
+msgid "Settings has been updated successfully"
+msgstr "Instellingen zijn succesvol geüpdatet"
+
+#: app/Http/Controllers/SettingsController.php:614
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_SECRET in your wp-config.php file"
+msgstr "Definieer FLUENTMAIL_OUTLOOK_CLIENT_SECRET in wp-config.php bestand"
+
+#: app/Http/Controllers/SettingsController.php:605
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_ID in your wp-config.php file"
+msgstr "Definieer FLUENTMAIL_OUTLOOK_CLIENT_ID in wp-config.php bestand"
+
+#: app/Http/Controllers/SettingsController.php:568
+#: app/Http/Controllers/SettingsController.php:636
+msgid "Please provide application client secret"
+msgstr "Geef applicatie client geheim op"
+
+#: app/Http/Controllers/SettingsController.php:560
+#: app/Http/Controllers/SettingsController.php:628
+msgid "Please provide application client id"
+msgstr "Geef applicatie client id op"
+
+#: app/Http/Controllers/SettingsController.php:551
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_SECRET in your wp-config.php file"
+msgstr "Definieer FLUENTMAIL_GMAIL_CLIENT_SECRET in wp-config.php bestand"
+
+#: app/Http/Controllers/SettingsController.php:542
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_ID in your wp-config.php file"
+msgstr "Definieer FLUENTMAIL_GMAIL_CLIENT_ID in wp-config.php bestand"
+
+#: app/Http/Controllers/SettingsController.php:202
+#: app/Services/Mailer/ValidatorTrait.php:36
+msgid "Unprocessable Entity"
+msgstr "Niet-verwerkbare entiteit"
+
+#: app/Http/Controllers/LoggerController.php:102
+msgid "Selected Emails have been proceed to send."
+msgstr "Geselecteerde e-mails zijn verwerkt om te verzenden."
+
+#: app/Http/Controllers/LoggerController.php:73
+msgid "Something went wrong"
+msgstr "Er ging iets mis"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:250
+msgid "Failed to renew the token"
+msgstr "Mislukt om de token te vernieuwen"
+
+#: app/Services/TransStrings.php:358 app/views/admin/email_html.php:53
+msgid "write a review for FluentSMTP"
+msgstr "schrijf een beoordeling voor FluentSMTP"
+
+#: app/Services/TransStrings.php:355
+msgid "read the documentation here"
+msgstr "lees de documentatie hier"
+
+#: app/Services/TransStrings.php:354
+msgid "provider for the connection."
+msgstr "provider voor de verbinding."
+
+#: app/Services/TransStrings.php:353
+msgid "open an issue on GitHub"
+msgstr "open een issue op GitHub"
+
+#: app/Services/TransStrings.php:350
+msgid "copy"
+msgstr "kopieer"
+
+#: app/Services/TransStrings.php:348
+msgid "click here"
+msgstr "klik hier"
+
+#: app/Services/TransStrings.php:347
+msgid "check the documentation first to create API keys at Microsoft"
+msgstr "controleer eerst de documentatie om API-sleutels te maken bij Microsoft"
+
+#: app/Services/TransStrings.php:344
+msgid "activate "
+msgstr "activeer "
+
+#: app/Services/TransStrings.php:315
+msgid "If you change your WordPress SALT Keys, this credential will become invalid. Please update this credential whenever the WP SALTS are modified."
+msgstr "Als je je WordPress SALT Keys wijzigt, wordt deze referentie ongeldig. Update deze referentie telkens wanneer de WP SALTS worden gewijzigd."
+
+#: app/Services/TransStrings.php:314
+msgid "This input will be securely encrypted using WP SALTS as encryption keys before saving."
+msgstr "Deze invoer wordt veilig versleuteld met WP SALTS als encryptie sleutel voor het opslaan."
+
+#: app/Services/TransStrings.php:301
+msgid "Enable Multi-Part Plain Text version of your HTML Emails. This feature is in beta"
+msgstr "Schakel Multi-Part Plain Text versie van je HTML e-mails in. Deze functie is in bèta"
+
+#: app/Services/TransStrings.php:310
+msgid "More information on Mailgun.com"
+msgstr "Meer informatie op Mailgun.com"
+
+#: app/Services/TransStrings.php:306
+msgid "read the doc and upgrade your API connection"
+msgstr "lees de doc en upgrade je API verbinding"
+
+#: app/Services/TransStrings.php:305
+msgid "check the documentation"
+msgstr "raadpleeg de documentatie"
+
+#: app/Services/TransStrings.php:319
+msgid "If you enable this then open tracking header will be added to the email for Postmark."
+msgstr "Als je dit inschakelt, wordt de header voor het volgen van open e-mails toegevoegd aan de e-mail voor Postmark."
+
+#: app/Services/TransStrings.php:317
+msgid "If you enable this then link tracking header will be added to the email for Postmark."
+msgstr "Als je dit inschakelt, wordt de header voor het volgen van links toegevoegd aan de e-mail voor Postmark."
+
+#: app/Services/TransStrings.php:307
+msgid "contribute on GitHub"
+msgstr "bijdragen op GitHub"
+
+#: app/Services/TransStrings.php:325 app/Services/TransStrings.php:333
+msgid "terms and conditions"
+msgstr "algemene voorwaarden"
+
+#: app/Services/TransStrings.php:318
+msgid "Follow this link to get an API Key from Postmark (Your API key is in the API Tokens tab of your):"
+msgstr "Volg deze link om een API-sleutel van Postmark te krijgen (je API-sleutel staat in de API tokens tab van je):"
+
+#: app/Services/TransStrings.php:316
+msgid "Follow this link to get an API Key from Pepipost (Click Show button on Settings Page):"
+msgstr "Volg deze link om een API-sleutel van Pepipost te krijgen (klik op de Toon knop op de instellingen pagina):"
+
+#: app/Services/TransStrings.php:311
+msgid "Define which endpoint you want to use for sending messages."
+msgstr "Definieer het endpoint dat je wil gebruiken voor het verzenden van berichten."
+
+#: app/Services/TransStrings.php:292
+msgid "Default and Fallback connection cannot be the same. Please select different connections."
+msgstr "Standaard en fallback verbinding kunnen niet hetzelfde zijn. Selecteer verschillende verbindingen."
+
+#: app/Services/TransStrings.php:328
+msgid "open a GitHub issue"
+msgstr "een GitHub probleem openen"
+
+#: app/Services/TransStrings.php:328
+msgid "documentation"
+msgstr "documentatie"
+
+#: app/Services/TransStrings.php:332
+msgid "We could not fetch the Telegram notification status. Here is the server response: "
+msgstr "We konden de Telegram melding status niet ophalen. Hier is de server reactie: "
+
+#: app/Services/TransStrings.php:293
+msgid "The Default(none) option does not use SMTP and will not improve email delivery on your site."
+msgstr "De standaardoptie (geen) gebruikt geen SMTP en zal de e-mailaflevering op je site niet verbeteren."
+
+#: app/Services/TransStrings.php:327
+msgid "Subscribe with your email to know about this plugin updates, releases and useful tips."
+msgstr "Abonneer je met je e-mail om op de hoogte te blijven van deze plugin updates, releases en nuttige tips."
+
+#: app/Services/TransStrings.php:298
+msgid "Email summary is useful for getting weekly or daily emails about all the email sending stats for this site."
+msgstr "E-mail overzicht is handig om wekelijkse of dagelijkse e-mails te verkrijgen over alle statistieken voor het verzenden van e-mails voor deze site."
+
+#: app/Services/TransStrings.php:297
+msgid "Email Logging is currently turned off. Only Failed and resent emails will be shown here"
+msgstr "E-mail loggen is momenteel uitgeschakeld. Alleen mislukte en opnieuw verzonden e-mails worden hier getoond"
+
+#: app/Services/TransStrings.php:291
+msgid "Another connection with same email address exists. This connection will replace that connection"
+msgstr "Er bestaat al een andere verbinding met hetzelfde e-mailadres. Deze verbinding zal die verbinding vervangen"
+
+#: app/Services/TransStrings.php:326
+msgid "(If you need to provide your SMTP server's credentials (username and password) enable the authentication, in most cases this is required.)"
+msgstr "(Als je de referenties van je SMTP server (gebruikersnaam en wachtwoord) moet opgeven, schakel dan de authenticatie in, in de meeste gevallen is dit vereist.)"
+
+#: app/Services/TransStrings.php:335
+msgid "(By default, the TLS encryption would be used if the server supports it. On some servers, it could be a problem and may need to be disabled.)"
+msgstr "(Standaard zou de TLS encryptie worden gebruikt als de server dit ondersteunt. Op sommige servers kan dit een probleem zijn en moet het mogelijk worden uitgeschakeld.)"
+
+#: app/Services/TransStrings.php:313
+msgid "the best WP table plugin that comes with all the solutions to the problems you face while creating tables on your posts/pages."
+msgstr "de beste WP tabel plugin die wordt geleverd met alle oplossingen voor de problemen die je tegenkomt bij het maken van tabellen op je berichten/pagina's."
+
+#: app/Services/TransStrings.php:312
+msgid "Looking for a WordPress table plugin for your website? Then you’re in the right place."
+msgstr "Op zoek naar een WordPress tabel plugin voor je site? Dan ben je op de juiste plek."
+
+#: app/Services/TransStrings.php:303
+msgid "is the ultimate user-friendly, fast, customizable drag-and-drop WordPress Contact Form Plugin that offers you all the premium features, plus many more completely unique additional features."
+msgstr "is de ultieme gebruiksvriendelijke, snelle, aanpasbare verslepen WordPress contactformulier plugin die je alle premium functies biedt, plus nog veel meer volledig unieke extra functies."
+
+#: app/Services/TransStrings.php:302
+msgid "is the best and complete feature-rich Email Marketing & CRM solution. It is also the simplest and fastest CRM and Marketing Plugin on WordPress. Manage your customer relationships, build your email lists, send email campaigns, build funnels, and make more profit and increase your conversion rates. (Yes, It’s Free!)"
+msgstr "is de beste en uitgelichte oplossing voor e-mailmarketing & CRM. Het is ook de eenvoudigste en snelste CRM en marketing plugin op WordPress. Beheer je klantrelaties, bouw je e-maillijsten, verstuur e-mailcampagnes, bouw funnels en maak meer winst en verhoog je conversiepercentages. (Ja, het is gratis!)"
+
+#: app/Services/TransStrings.php:295
+msgid "Get real-time notification on your Discord Channel on any email sending failure. Configure notification with Discord to start getting real time notifications."
+msgstr "Verkrijg realtime meldingen op je Discord Channel als het verzenden van e-mails mislukt. Configureer de configuratie met Discord om meldingen in realtime te verkrijgen."
+
+#: app/Services/TransStrings.php:323
+msgid "Get real-time notification on your Slack Channel on any email sending failure. Configure notification with Slack Bot to start getting real time notifications."
+msgstr "Krijg real-time melding op je Slack kanaal bij elke e-mail verzendfout. Configureer melding met Slack Bot om real-time meldingen te ontvangen."
+
+#: app/Services/TransStrings.php:308 app/Services/TransStrings.php:336
+msgid "Simply copy the following snippet and replace the stars with the corresponding credential. Then simply paste to wp-config.php file of your WordPress installation"
+msgstr "Kopieer eenvoudig de volgende snippet en vervang de sterren door de bijbehorende referentie. Plak het vervolgens in het wp-config.php bestand van je WordPress installatie"
+
+#: app/Services/TransStrings.php:296
+msgid "Your FluentSMTP plugin is currently integrated with your Discord Channel. Receive timely notifications on Discord for any email sending issues from your website. This ongoing connection ensures you're always informed about your email delivery status."
+msgstr "Je FluentSMTP plugin is nu geïntegreerd met je Discord Channel. Ontvang op tijd meldingen op Discord voor problemen met het verzenden van e-mails vanaf je site. Deze doorlopende verbinding zorgt ervoor dat je altijd op de hoogte bent van de afleverstatus van je e-mail."
+
+#: app/Services/TransStrings.php:324
+msgid "Your FluentSMTP plugin is currently integrated with your Slack Channel. Receive timely notifications on Slack for any email sending issues from your website. This ongoing connection ensures you're always informed about your email delivery status."
+msgstr "Je FluentSMTP plugin is momenteel geïntegreerd met je Slack kanaal. Ontvang tijdige meldingen op Slack voor eventuele e-mail verzendproblemen van je site. Deze voortdurende verbinding zorgt ervoor dat je altijd op de hoogte bent van de afleverstatus van je e-mail."
+
+#: app/Services/TransStrings.php:309
+msgid "Your Gmail / Google Workspace Authentication has been enabled. No further action is needed. If you want to re-authenticate,"
+msgstr "Je Gmail/Google Workspace authenticatie is ingeschakeld. Geen verdere actie is nodig. Als je opnieuw wil authenticeren,"
+
+#: app/Services/TransStrings.php:289
+msgid "Join our communities and participate in great conversations."
+msgstr "Word lid van onze communitypen en neem deel aan geweldige gesprekken."
+
+#: app/Services/TransStrings.php:287
+msgid "FluentSMTP is powered by community. We listen to our community users and build products that add value to businesses and save time."
+msgstr "FluentSMTP wordt aangedreven door de community. We luisteren naar onze community gebruikers en bouwen producten die waarde toevoegen aan bedrijven en tijd besparen."
+
+#: app/Services/TransStrings.php:290
+msgid "FluentSMTP is powered by its users like you. Feel free to contribute on Github. Thanks to all of our contributors."
+msgstr "FluentSMTP wordt aangedreven door gebruikers zoals jij. Voel je vrij om bij te dragen op GitHub. Dank aan al onze bijdragers."
+
+#: app/Services/TransStrings.php:286
+msgid "FluentSMTP is free and will be always free. This is our pledge to WordPress community from WPManageNinja LLC."
+msgstr "FluentSMTP is gratis en zal altijd gratis blijven. Dit is onze belofte aan de WordPress community van WPManageNinja LLC."
+
+#: app/Services/TransStrings.php:288
+msgid "is a free and open-source WordPress Plugin. Our mission is to provide the ultimate email delivery solution with your favorite Email sending service. FluentSMTP is built for performance and speed."
+msgstr "is een gratis en open-source WordPress plugin. Het is onze missie om de ultieme oplossing voor het verzenden van e-mails te bieden met je favoriete e-maildienst. FluentSMTP is gebouwd voor prestaties en snelheid."
+
+#: app/Services/TransStrings.php:334
+msgid "Enter email address where test email will be sent (By default, logged in user email will be used if email address is not provided)."
+msgstr "Voer e-mailadres in waar test e-mail naartoe wordt gestuurd (Standaard wordt het e-mailadres van de ingelogde gebruiker gebruikt als er geen e-mailadres wordt opgegeven)."
+
+#: app/Services/TransStrings.php:321
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent. If unchecked, bounce messages may be lost. With this enabled, you'll be emailed using \"From Email\" if any messages bounce as a result of issues with the recipient’s email."
+msgstr "Retour pad geeft aan waar niet-afleveringsbewijzen - of bounce berichten - naartoe moeten worden verzonden. Als dit niet is aangevinkt, kunnen bounce berichten verloren gaan. Met deze optie ingeschakeld, ontvang je een e-mail via \"Van e-mail\" als berichten stuiten als gevolg van problemen met de e-mail van de ontvanger."
+
+#: app/Services/TransStrings.php:285
+msgid "Your SMTP Username"
+msgstr "Je SMTP gebruikersnaam"
+
+#: app/Services/TransStrings.php:284
+msgid "Your Name"
+msgstr "Je naam"
+
+#: app/Services/TransStrings.php:283
+msgid "Your Email Address"
+msgstr "Je e-mailadres"
+
+#: app/Services/TransStrings.php:282
+msgid "Your Email"
+msgstr "Je e-mail"
+
+#: app/Services/TransStrings.php:281
+msgid "Your Discord Channel Webhook URL"
+msgstr "Je Discord kanaal webhook URL"
+
+#: app/Services/TransStrings.php:280
+msgid "Your Discord Channel Name (For Internal Use)"
+msgstr "Je Discord kanaalnaam (voor intern gebruik)"
+
+#: app/Services/TransStrings.php:279
+msgid "You may add additional sending emails in this"
+msgstr "Je kunt extra verzendende e-mails toevoegen in dit"
+
+#: app/Services/TransStrings.php:278
+msgid "Yes, Disconnect"
+msgstr "Ja, ontkoppelen"
+
+#: app/Services/TransStrings.php:277
+msgid "Write a review (really appreciated 😊)"
+msgstr "Schrijf een beoordeling(echt gewaardeerd 😊)"
+
+#: app/Services/TransStrings.php:274
+msgid "Use Auto TLS"
+msgstr "Auto TLS gebruiken"
+
+#: app/Services/TransStrings.php:270
+msgid "Try Again"
+msgstr "Opnieuw proberen"
+
+#: app/Services/TransStrings.php:269
+msgid "Transactional"
+msgstr "Transactioneel"
+
+#: app/Services/TransStrings.php:268
+msgid "Track Opens"
+msgstr "Bijhouden opent"
+
+#: app/Services/TransStrings.php:265
+msgid "To send emails you will need only a Mail Send access level for this API key."
+msgstr "Om e-mails te verzenden heb je alleen een Mail Send toegangsniveau nodig voor deze API-sleutel."
+
+#: app/Services/TransStrings.php:262
+msgid "The name which emails are sent from."
+msgstr "De naam waarvandaan de e-mails worden verzonden."
+
+#: app/Services/TransStrings.php:261
+msgid "The email address which emails are sent from."
+msgstr "Het e-mail adres van waaruit e-mails worden verzonden."
+
+#: app/Services/TransStrings.php:260
+msgid "The email address must match the domain: "
+msgstr "Het e-mailadres moet overeenkomen met het domein: "
+
+#: app/Services/TransStrings.php:259
+msgid "The email address already exists in the list"
+msgstr "Het e-mailadres bestaat al in de lijst"
+
+#: app/Services/TransStrings.php:258
+msgid "Test Email Has been successfully sent"
+msgstr "Test e-mail is succesvol verzonden"
+
+#: app/Services/TransStrings.php:257
+msgid "Telegram Notifications Enable"
+msgstr "Telegram meldingen inschakelen"
+
+#: app/Services/TransStrings.php:256
+msgid "Telegram Connection Status: "
+msgstr "Telegram verbindingsstatus: "
+
+#: app/Services/TransStrings.php:255
+msgid "TLS"
+msgstr "TLS"
+
+#: app/Services/TransStrings.php:253
+msgid "Summary Email"
+msgstr "Samenvatting e-mail"
+
+#: app/Services/TransStrings.php:249
+msgid "Store Application Keys in DB"
+msgstr "Sla applicatiesleutels op in DB"
+
+#: app/Services/TransStrings.php:248
+msgid "Store Access Keys in DB"
+msgstr "Sla toegangssleutels op in DB"
+
+#: app/Services/TransStrings.php:247
+msgid "Store API Keys in DB"
+msgstr "Sla API-sleutels op in DB"
+
+#: app/Services/TransStrings.php:246
+msgid "Store API Keys in Config File"
+msgstr "Sla API-sleutels op in configuratiebestand"
+
+#: app/Services/TransStrings.php:245
+msgid "Status:"
+msgstr "Status:"
+
+#: app/Services/TransStrings.php:242
+msgid "SparkPost API Settings"
+msgstr "SparkPost API-instellingen"
+
+#: app/Services/TransStrings.php:241
+msgid "Sorry! No docs found"
+msgstr "Geen documenten gevonden"
+
+#: app/Services/TransStrings.php:240
+msgid "Slack Notifications Enabled"
+msgstr "Slack meldingen ingeschakeld"
+
+#: app/Services/TransStrings.php:239
+msgid "Slack Channel Details: "
+msgstr "Slack kanaal details: "
+
+#: app/Services/TransStrings.php:236
+msgid "Server Response"
+msgstr "Server reactie"
+
+#: app/Services/TransStrings.php:233
+msgid "Sendinblue API Settings"
+msgstr "Sendinblue API-instellingen"
+
+#: app/Services/TransStrings.php:231
+#: app/views/admin/general_connection_info.php:12
+#: app/views/admin/ses_connection_info.php:35
+msgid "Sender Name"
+msgstr "Afzender naam"
+
+#: app/Services/TransStrings.php:230
+msgid "Sender Email Address"
+msgstr "E-mailadres afzender"
+
+#: app/Services/TransStrings.php:229
+msgid "Sender Email "
+msgstr "E-mail afzender "
+
+#: app/Services/TransStrings.php:228
+msgid "SendGrid API Settings"
+msgstr "SendGrid API-instellingen"
+
+#: app/Services/TransStrings.php:227
+msgid "Send this email in HTML or in plain text format."
+msgstr "Verzend deze e-mail in HTML lay-out of als platte tekst."
+
+#: app/Services/TransStrings.php:225
+msgid "Send Test Message"
+msgstr "Testbericht verzenden"
+
+#: app/Services/TransStrings.php:224
+msgid "Send Test Email"
+msgstr "Test e-mail verzenden"
+
+#: app/Services/TransStrings.php:222
+msgid "Select Region"
+msgstr "Regio selecteren"
+
+#: app/Services/TransStrings.php:221
+msgid "Select Provider"
+msgstr "Aanbieder selecteren"
+
+#: app/Services/TransStrings.php:220
+msgid "Select Email or Type"
+msgstr "Selecteer e-mail of type"
+
+#: app/Services/TransStrings.php:218
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: app/Services/TransStrings.php:217
+msgid "Search Type and Enter..."
+msgstr "Zoeken type en druk op enter…"
+
+#: app/Services/TransStrings.php:211
+msgid "SSL"
+msgstr "SSL"
+
+#: app/Services/TransStrings.php:209
+msgid "SMTP Username"
+msgstr "SMTP gebruikersnaam"
+
+#: app/Services/TransStrings.php:208
+msgid "SMTP Port"
+msgstr "SMTP poort"
+
+#: app/Services/TransStrings.php:207
+msgid "SMTP Password"
+msgstr "SMTP wachtwoord"
+
+#: app/Services/TransStrings.php:206
+msgid "SMTP Host"
+msgstr "SMTP host"
+
+#: app/Services/TransStrings.php:205
+msgid "Run Another Test Email"
+msgstr "Voer nog een test e-mail uit"
+
+#: app/Services/TransStrings.php:200
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: app/Services/TransStrings.php:199
+msgid "Region "
+msgstr "Regio "
+
+#: app/Services/TransStrings.php:197
+msgid "Receiver's Telegram Username: "
+msgstr "Telegram gebruikersnaam van de ontvanger: "
+
+#: app/Services/Mailer/Providers/config.php:29
+#: app/Services/Mailer/Providers/config.php:71
+#: app/Services/Mailer/Providers/config.php:88
+#: app/Services/Mailer/Providers/config.php:102
+#: app/Services/Mailer/Providers/config.php:116
+#: app/Services/Mailer/Providers/config.php:130
+#: app/Services/Mailer/Providers/config.php:144
+#: app/Services/Mailer/Providers/config.php:161
+#: app/Services/Mailer/Providers/config.php:176
+#: app/Services/TransStrings.php:195
+msgid "Read the documentation"
+msgstr "Lees de documentatie"
+
+#: app/Services/TransStrings.php:192
+msgid "Private API Key"
+msgstr "Privé API-sleutel"
+
+#: app/Services/TransStrings.php:190
+msgid "Postmark API Settings"
+msgstr "Postmark API-instellingen"
+
+#: app/Services/TransStrings.php:189
+msgid "Please send test email to confirm if the connection is working or not."
+msgstr "Stuur een test e-mail om te bevestigen of de verbinding werkt of niet."
+
+#: app/Services/TransStrings.php:188
+msgid "Please enter a valid email address"
+msgstr "Voer een geldig e-mailadres in"
+
+#: app/Services/TransStrings.php:187
+msgid "Please authenticate with Office365 to get "
+msgstr "Authenticeer met Office365 om te krijgen "
+
+#: app/Services/TransStrings.php:186
+msgid "Please authenticate with Google to get "
+msgstr "Authenticeer met Google om te krijgen "
+
+#: app/Services/TransStrings.php:184
+msgid "Please Provide an email"
+msgstr "Geef een e-mail op"
+
+#: app/Services/TransStrings.php:183
+msgid "Please "
+msgstr "Alsjeblieft "
+
+#: app/Services/TransStrings.php:182
+msgid "Pin copied to clipboard"
+msgstr "Pin gekopieerd naar klembord"
+
+#: app/Services/TransStrings.php:181
+msgid "Pepipost API Settings"
+msgstr "Pepipost API-instellingen"
+
+#: app/Services/TransStrings.php:180
+msgid "Outlook / Office365 API Settings"
+msgstr "Outlook/Office365 API instellingen"
+
+#: app/Services/TransStrings.php:178
+msgid "On"
+msgstr "Aan"
+
+#: app/Services/TransStrings.php:177
+msgid "Off"
+msgstr "Uit"
+
+#: app/Services/TransStrings.php:174
+msgid "None"
+msgstr "Geen"
+
+#: app/Services/TransStrings.php:170
+msgid "Message Stream"
+msgstr "Berichten stream"
+
+#: app/Services/TransStrings.php:169
+msgid "Meet "
+msgstr "Ontmoet "
+
+#: app/Services/TransStrings.php:168
+msgid "Marketing"
+msgstr "Marketing"
+
+#: app/Services/TransStrings.php:167
+msgid "Manage Additional Senders"
+msgstr "Beheer extra afzenders"
+
+#: app/Services/TransStrings.php:166
+msgid "Mailgun API Settings"
+msgstr "Mailgun API-instellingen"
+
+#: app/Services/TransStrings.php:164
+msgid "Log Emails"
+msgstr "E-mails loggen"
+
+#: app/Services/TransStrings.php:160
+msgid "Last step!"
+msgstr "Laatste stap!"
+
+#: app/Services/TransStrings.php:155
+msgid "Join FluentForms Facebook Community"
+msgstr "Word lid van de FluentForms Facebook community"
+
+#: app/Services/TransStrings.php:154
+msgid "Join FluentCRM Facebook Community"
+msgstr "Word lid van de FluentCRM Facebook community"
+
+#: app/Services/TransStrings.php:152
+msgid "Install Ninja Tables (Free)"
+msgstr "Installeer Ninja Tables (Gratis)"
+
+#: app/Services/TransStrings.php:151
+msgid "Install FluentCRM (Free)"
+msgstr "Installeer FluentCRM (Gratis)"
+
+#: app/Services/TransStrings.php:150
+msgid "Install Fluent Forms (Free)"
+msgstr "Installeer Fluent Forms (Gratis)"
+
+#: app/Services/TransStrings.php:149
+msgid "If you have a minute, consider "
+msgstr "Als je een minuut hebt, overweeg "
+
+#: app/Services/TransStrings.php:148
+msgid "If you find an issue or have a suggestion please "
+msgstr "Als je een probleem vindt of een suggestie hebt, neem contact met ons op "
+
+#: app/Services/TransStrings.php:147
+msgid "I have sent the code"
+msgstr "Ik heb de code gestuurd"
+
+#: app/Services/TransStrings.php:146
+msgid "How can we help you?"
+msgstr "Waar kunnen we je mee helpen?"
+
+#: app/Services/TransStrings.php:144
+msgid "Gmail / Google Workspace API Settings"
+msgstr "Gmail/Google Workspace API-instellingen"
+
+#: app/Services/TransStrings.php:142
+msgid "Get v3 API Key."
+msgstr "Verkrijg v3 API-sleutel."
+
+#: app/Services/TransStrings.php:141
+msgid "Get a Private API Key."
+msgstr "Verkrijg een privé API-sleutel."
+
+#: app/Services/TransStrings.php:140
+msgid "Get a Domain Name."
+msgstr "Koop een domeinnaam."
+
+#: app/Services/TransStrings.php:139
+msgid "Get API Key."
+msgstr "API-sleutel verkrijgen."
+
+#: app/Services/TransStrings.php:134
+msgid "From"
+msgstr "Van"
+
+#: app/Services/TransStrings.php:130
+msgid "Follow this link to get an API Key:"
+msgstr "Volg deze link om een API-sleutel te krijgen:"
+
+#: app/Services/TransStrings.php:129
+msgid "Follow this link to get an API Key from SendGrid:"
+msgstr "Volg deze link om een API-sleutel van SendGrid te krijgen:"
+
+#: app/Services/TransStrings.php:127
+msgid "Follow this link to get an API Key from Mailgun:"
+msgstr "Klik op deze link om een API-sleutel te verkrijgen van Mailgun:"
+
+#: app/Services/TransStrings.php:126
+msgid "Follow this link to get an API Key from ElasticEmail: "
+msgstr "Volg deze link om een API-sleutel van ElasticEmail te krijgen: "
+
+#: app/Services/TransStrings.php:125
+msgid "Follow this link to get a Domain Name from Mailgun:"
+msgstr "Volg deze link om een domeinnaam van Mailgun te krijgen:"
+
+#: app/Services/TransStrings.php:124
+msgid "FluentSMTP is built using the following open-source libraries and software"
+msgstr "FluentSMTP is gebouwd met behulp van de volgende open-source bibliotheken en software"
+
+#: app/Services/TransStrings.php:123
+msgid "FluentSMTP does not store your email notifications data. "
+msgstr "FluentSMTP slaat je e-mail meldingen gegevens niet op. "
+
+#: app/Services/TransStrings.php:122
+msgid "FluentSMTP does not store your email notifications data."
+msgstr "FluentSMTP slaat je e-mail meldingen gegevens niet op."
+
+#: app/Services/TransStrings.php:119
+msgid "Fastest Contact Form Builder Plugin for WordPress"
+msgstr "Snelste contactformulier bouwer plugin voor WordPress"
+
+#: app/Services/TransStrings.php:116
+msgid "Enter the sender email address(optional)."
+msgstr "Voer het afzender e-mailadres in (optioneel)."
+
+#: app/Services/TransStrings.php:115
+msgid "Enter new email address ex: new_sender@"
+msgstr "Voer nieuw e-mailadres in bijv: new_sender@"
+
+#: app/Services/TransStrings.php:112
+msgid "Encryption"
+msgstr "Encryptie"
+
+#: app/Services/TransStrings.php:111
+msgid "Enable link tracking on postmark (For HTML Emails only)."
+msgstr "Schakel link tracering in op Postmark (alleen voor HTML e-mails)."
+
+#: app/Services/TransStrings.php:110
+msgid "Enable email opens tracking on postmark(For HTML Emails only)."
+msgstr "Schakel e-mail opens tracering in op Postmark (alleen voor HTML e-mails)."
+
+#: app/Services/TransStrings.php:108
+msgid "Email Type"
+msgstr "E-mail type"
+
+#: app/Services/TransStrings.php:105
+msgid "Email Sending Error Notifications"
+msgstr "E-mail verzending foutmeldingen"
+
+#: app/Services/TransStrings.php:104
+msgid "Email Marketing Automation and CRM Plugin for WordPress"
+msgstr "E-mail marketing automatisering en CRM plugin voor WordPress"
+
+#: app/Services/TransStrings.php:102
+msgid "Email Log"
+msgstr "E-mail log"
+
+#: app/Services/TransStrings.php:101
+msgid "Email Headers"
+msgstr "E-mail headers"
+
+#: app/Services/TransStrings.php:97
+msgid "ElasticEmail API Settings"
+msgstr "ElasticEmail API-instellingen"
+
+#: app/Services/TransStrings.php:95
+msgid "Domain Name"
+msgstr "Domeinnaam"
+
+#: app/Services/TransStrings.php:94
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: app/Services/TransStrings.php:93
+msgid "Discord Webhook URL"
+msgstr "Discord webhook URL"
+
+#: app/Services/TransStrings.php:92
+msgid "Discord Notifications Enabled"
+msgstr "Discord meldingen ingeschakeld"
+
+#: app/Services/TransStrings.php:91
+msgid "Discord Channel Details: "
+msgstr "Discord kanaal details: "
+
+#: app/Services/TransStrings.php:90
+msgid "Disconnect & Reconnect"
+msgstr "Verbreek & opnieuw verbinden"
+
+#: app/Services/TransStrings.php:89
+msgid "Disconnect"
+msgstr "Ontkoppelen"
+
+#: app/Services/TransStrings.php:87
+msgid "Delete Selected"
+msgstr "Geselecteerde verwijderen"
+
+#: app/Services/TransStrings.php:80
+msgid "Current verified senders:"
+msgstr "Huidige geverifieerde afzenders:"
+
+#: app/Services/TransStrings.php:78
+msgid "Create API Key."
+msgstr "API-sleutel aanmaken."
+
+#: app/Services/TransStrings.php:77
+msgid "Contributors"
+msgstr "Bijdragers"
+
+#: app/Services/TransStrings.php:76
+msgid "Continue to Slack"
+msgstr "Doorgaan naar Slack"
+
+#: app/Services/TransStrings.php:75
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: app/Services/TransStrings.php:74
+msgid "Connection deleted Successfully."
+msgstr "Verbinding succesvol verwijderd."
+
+#: app/Services/TransStrings.php:73
+msgid "Connection Provider"
+msgstr "Verbindingsprovider"
+
+#: app/Services/TransStrings.php:72
+msgid "Connection Name "
+msgstr "Naam verbinding "
+
+#: app/Services/TransStrings.php:69
+msgid "Configure Discord Notification"
+msgstr "Configureer Discord melding"
+
+#: app/Services/TransStrings.php:66
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: app/Services/TransStrings.php:63
+msgid "Best WP DataTables Plugin for WordPress"
+msgstr "Beste WP DataTables plugin voor WordPress"
+
+#: app/Services/TransStrings.php:62
+msgid "Awesome! Please check your email inbox and confirm your subscription."
+msgstr "Geweldig! Controleer je e-mail inbox en bevestig je abonnement."
+
+#: app/Services/TransStrings.php:61
+msgid "Authorized Redirect URIs"
+msgstr "Geautoriseerde omleiding URI's"
+
+#: app/Services/TransStrings.php:60
+msgid "Authorized Redirect URI"
+msgstr "Geautoriseerde omleiding URI"
+
+#: app/Services/TransStrings.php:59
+msgid "Authentication"
+msgstr "Authenticatie"
+
+#: app/Services/TransStrings.php:58
+msgid "Authenticate with Office365 & Get Access Token"
+msgstr "Authenticeer met Office365 & krijg toegang token"
+
+#: app/Services/TransStrings.php:57
+msgid "Authenticate with Google & Get Access Token"
+msgstr "Authenticeer met Google & krijg toegang token"
+
+#: app/Services/TransStrings.php:55
+msgid "Are you sure, you want to delete all the logs?"
+msgstr "Weet je zeker dat je alle logs wil verwijderen?"
+
+#: app/Services/TransStrings.php:54
+msgid "Are you sure you want to remove this email address?"
+msgstr "Weet je zeker dat je dit e-mailadres wil verwijderen?"
+
+#: app/Services/TransStrings.php:53
+msgid "Are you sure you want to disconnect Telegram notifications?"
+msgstr "Weet je zeker dat je Telegram meldingen wil uitschakelen?"
+
+#: app/Services/TransStrings.php:52
+msgid "Are you sure you want to disconnect Slack notifications?"
+msgstr "Weet je zeker dat je Slack meldingen wil uitschakelen?"
+
+#: app/Services/TransStrings.php:51
+msgid "Are you sure you want to disconnect Discord notifications?"
+msgstr "Weet je zeker dat je Discord meldingen wil uitschakelen?"
+
+#: app/Services/TransStrings.php:49
+msgid "Application Keys in Config File"
+msgstr "Applicatiesleutels in configuratiebestand"
+
+#: app/Services/TransStrings.php:48
+msgid "Application Client Secret"
+msgstr "Applicatie client geheim"
+
+#: app/Services/TransStrings.php:47
+msgid "Application Client ID"
+msgstr "Applicatie client ID"
+
+#: app/Services/TransStrings.php:46
+msgid "App Callback URL(Use this URL to your APP)"
+msgstr "App callback URL (Gebruik deze URL voor je APP)"
+
+#: app/Services/TransStrings.php:44
+msgid "All Statuses"
+msgstr "Alle statussen"
+
+#: app/Services/TransStrings.php:42
+msgid "After 90 Days"
+msgstr "Na 90 dagen"
+
+#: app/Services/TransStrings.php:41
+msgid "After 7 Days"
+msgstr "Na 7 dagen"
+
+#: app/Services/TransStrings.php:40
+msgid "After 60 Days"
+msgstr "Na 60 dagen"
+
+#: app/Services/TransStrings.php:39
+msgid "After 6 Months"
+msgstr "Na 6 maanden"
+
+#: app/Services/TransStrings.php:38
+msgid "After 30 Days"
+msgstr "Na 30 dagen"
+
+#: app/Services/TransStrings.php:37
+msgid "After 2 Years"
+msgstr "Na 2 jaar"
+
+#: app/Services/TransStrings.php:36
+msgid "After 14 Days"
+msgstr "Na 14 dagen"
+
+#: app/Services/TransStrings.php:35
+msgid "After 1 Year"
+msgstr "Na 1 jaar"
+
+#: app/Services/TransStrings.php:32
+msgid "Add Additional Senders"
+msgstr "Voeg extra afzenders toe"
+
+#: app/Services/TransStrings.php:31
+msgid "Add"
+msgstr "Toevoegen"
+
+#: app/Services/TransStrings.php:27
+msgid "Activation Pin"
+msgstr "Activeringspin"
+
+#: app/Services/TransStrings.php:25
+msgid "Access Token"
+msgstr "Toegangstoken"
+
+#: app/Services/TransStrings.php:24
+msgid "Access Keys in Config File"
+msgstr "Toegangssleutels in configuratiebestand"
+
+#: app/Services/TransStrings.php:23
+msgid "Access Key"
+msgstr "Toegangssleutel"
+
+#: app/Services/TransStrings.php:21
+msgid "About"
+msgstr "Over"
+
+#: app/Services/TransStrings.php:20
+msgid "API Key"
+msgstr "API-sleutel"
+
+#: app/Services/TransStrings.php:19
+msgid "A name for the connection."
+msgstr "Een naam voor de verbinding."
+
+#: app/Services/TransStrings.php:18
+msgid "*** It is very important to put "
+msgstr "*** Het is erg belangrijk om "
+
+#: app/Services/TransStrings.php:17
+msgid "(Re Authentication Required)"
+msgstr "(Opnieuw authenticatie vereist)"
+
+#: app/Services/TransStrings.php:15
+msgid "(Default: US East(N.Virginia) / us - east - 1)"
+msgstr "(Standaard: VS Oost (N.Virginia) / us - east - 1)"
+
+#: app/Services/TransStrings.php:14
+msgid " option in the Google Cloud Project."
+msgstr " optie in het Google Cloud Project."
+
+#: app/Services/TransStrings.php:13
+msgid " in the "
+msgstr " in de "
+
+#: app/Services/TransStrings.php:12
+msgid " connection."
+msgstr " verbinding."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:86
+msgid ""
+"This notice is from FluentSMTP plugin to prevent plugin\n"
+"                    conflict."
+msgstr ""
+"Dit bericht is van de FluentSMTP plugin om plugin\n"
+"                    conflict te voorkomen."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:85
+msgid "Go To FluentSMTP Settings"
+msgstr "Ga naar FluentSMTP instellingen"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:83
+msgid ". It's compatible with various SMTP services, including Amazon SES, SendGrid, MailGun, ElasticEmail, SendInBlue, Google, Microsoft, and others, providing you with a wide range of options for your email needs."
+msgstr ". Het is compatibel met verschillende SMTP diensten, waaronder Amazon SES, SendGrid, MailGun, ElasticEmail, SendInBlue, Google, Microsoft en anderen, waardoor je een breed scala aan opties hebt voor je e-mail behoeften."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:83
+msgid "learn why it's free"
+msgstr "lees waarom het gratis is"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:82
+msgid "You seem to be looking for an SMTP plugin, but there's no need for another one — FluentSMTP is already installed on your site. FluentSMTP is a comprehensive, free, and open-source plugin with full features available without any upsell"
+msgstr "Het lijkt erop dat je op zoek bent naar een SMTP plugin, maar er is geen andere nodig — FluentSMTP is al geïnstalleerd op je site. FluentSMTP is een uitgebreide, gratis en open-source plugin met alle functies beschikbaar zonder enige upsell"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:81
+msgid "For SMTP, you already have FluentSMTP Installed"
+msgstr "Voor SMTP heb je al FluentSMTP geïnstalleerd"
+
+#: app/Services/TransStrings.php:45
+msgid "All Time"
+msgstr "Alle tijden"
+
+#: app/Services/TransStrings.php:157
+msgid "Last 30 Days"
+msgstr "Laatste 30 dagen"
+
+#: app/Services/TransStrings.php:158
+msgid "Last 7 Days"
+msgstr "Laatste 7 dagen"
+
+#: app/Services/TransStrings.php:162
+msgid "Less"
+msgstr "Minder"
+
+#: app/Services/TransStrings.php:172
+msgid "More"
+msgstr "Meer"
+
+#: app/Services/TransStrings.php:235
+msgid "Sending by time of day"
+msgstr "Verzenden op tijd van de dag"
+
+#: app/Http/Controllers/TelegramController.php:160
+msgid "Telegram connection has been disconnected successfully"
+msgstr "De verbinding met Telegram is succesvol verbroken"
+
+#: app/Http/Controllers/TelegramController.php:99
+#: app/Http/Controllers/TelegramController.php:129
+#: app/Http/Controllers/TelegramController.php:153
+msgid "Telegram notification is not enabled"
+msgstr "Telegram melding is niet ingeschakeld"
+
+#: app/Http/Controllers/TelegramController.php:87
+msgid "Connection successful"
+msgstr "Verbinding succesvol"
+
+#: app/Http/Controllers/TelegramController.php:59
+msgid "Please provide site token"
+msgstr "Geef een token op voor de site"
+
+#: app/Http/Controllers/TelegramController.php:45
+msgid "Awesome! Please activate the connection from your telegram account."
+msgstr "Geweldig! Activeer de verbinding vanaf je Telegram account."
+
+#: app/Http/Controllers/SlackController.php:103
+msgid "Slack connection has been disconnected successfully"
+msgstr "Verbinding met Slack is succesvol verbroken"
+
+#: app/Http/Controllers/SlackController.php:58
+msgid "Awesome! You are redirecting to slack"
+msgstr "Geweldig! Je wordt omgeleid naar Slack"
+
+#: app/Http/Controllers/SettingsController.php:297
+msgid "Email has been removed successfully"
+msgstr "E-mail is succesvol verwijderd"
+
+#: app/Http/Controllers/SettingsController.php:259
+msgid "Email has been added successfully"
+msgstr "E-mail is succesvol toegevoegd"
+
+#: app/Http/Controllers/SettingsController.php:246
+#: app/Http/Controllers/SettingsController.php:284
+#: app/Http/Controllers/SlackController.php:22
+#: app/Http/Controllers/TelegramController.php:22
+msgid "Please provide a valid email address"
+msgstr "Je moet een geldig e-mailadres gebruiken"
+
+#: app/Http/Controllers/DiscordController.php:91
+msgid "Discord connection has been disconnected successfully"
+msgstr "De verbinding met Discord is succesvol verbroken"
+
+#: app/Http/Controllers/DiscordController.php:71
+#: app/Http/Controllers/SlackController.php:86
+#: app/Http/Controllers/TelegramController.php:143
+msgid "Test message sent successfully"
+msgstr "Test bericht succesvol verzonden"
+
+#: app/Http/Controllers/DiscordController.php:55
+#: app/Http/Controllers/SlackController.php:70
+msgid "Slack notification is not enabled"
+msgstr "Slack melding is niet ingeschakeld"
+
+#: app/Http/Controllers/DiscordController.php:44
+msgid "Your settings has been saved"
+msgstr "Je instellingen zijn opgeslagen"
+
+#: app/Http/Controllers/DiscordController.php:26
+msgid "Channel Name required"
+msgstr "Kanaal naam vereist"
+
+#: app/Http/Controllers/DiscordController.php:20
+msgid "Webhook URL is required"
+msgstr "Webhook URL is vereist"
+
+#: app/Services/TransStrings.php:43
+msgid "Alerts"
+msgstr "Waarschuwingen"
+
+#: app/Services/Mailer/Providers/config.php:231
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: app/Services/Mailer/Providers/config.php:212
+msgid "Outlook or Office 365"
+msgstr "Outlook of Office 365"
+
+#: app/Services/Mailer/Providers/config.php:134
+msgid "Netcore Email API, formerly Pepipost"
+msgstr "Netcore Email API, voorheen Pepipost"
+
+#: app/Services/Mailer/Providers/config.php:9
+msgid "SMTP server"
+msgstr "SMTP server"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:287
+msgid "FluentSMTP needs to be configured for it to work."
+msgstr "FluentSMTP moet worden geconfigureerd om te kunnen werken."
+
+#: app/Services/Mailer/Providers/config.php:165
+msgid "Elastic Email"
+msgstr "Elastic Email"
+
+#: app/Hooks/filters.php:6
+msgid "SMTP/Mail Settings"
+msgstr "SMTP/Mail instellingen"
+
+#: app/Services/Mailer/Providers/ElasticMail/ValidatorTrait.php:23
+msgid "Please define FLUENTMAIL_ELASTICMAIL_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_ELASTICMAIL_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Postmark/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_POSTMARK_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_POSTMARK_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/config.php:148
+msgid "Postmark"
+msgstr "Poststempel"
+
+#: app/views/admin/digest_email.php:182
+msgid "Your email sending health is perfect"
+msgstr "Je e-mail verzending gezondheid is perfect"
+
+#: app/views/admin/digest_email.php:180
+msgid "Awesome! no failures! 🎉"
+msgstr "Geweldig! Geen storingen! 🎉"
+
+#: app/views/admin/digest_email.php:165
+msgid "Failed Count"
+msgstr "Mislukt telling"
+
+#: app/views/admin/digest_email.php:133
+msgid "If this is unusual you should probably check if your site is broken."
+msgstr "Als dit ongebruikelijk is moet je waarschijnlijk controleren of je site kapot is."
+
+#: app/views/admin/digest_email.php:131
+msgid "Looks like no email has been sent to the time period"
+msgstr "Het lijkt erop dat er geen e-mail is verzonden naar de tijdsperiode"
+
+#: app/Services/Mailer/Providers/Outlook/Handler.php:96
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_SECRET in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_OUTLOOK_CLIENT_SECRET in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Outlook/Handler.php:90
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_ID in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_OUTLOOK_CLIENT_ID in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:318
+#: app/Services/Mailer/Providers/Outlook/Handler.php:192
+msgid "Token Validity"
+msgstr "Token geldigheid"
+
+#: app/Services/Mailer/Providers/config.php:227
+msgid "Outlook/Office365 is not recommended for sending mass marketing emails."
+msgstr "Outlook/Office365 wordt niet aanbevolen voor het verzenden van massa marketing e-mails."
+
+#: app/Services/Mailer/Providers/config.php:69
+msgid "China (Ningxia)"
+msgstr "China (Ningxia)"
+
+#: app/Services/Mailer/Providers/config.php:68
+msgid "Africa (Cape Town)"
+msgstr "Afrika (Kaapstad)"
+
+#: app/Services/Mailer/Providers/config.php:57
+msgid "Europe (Milan)"
+msgstr "Europa (Milaan)"
+
+#: app/Http/Controllers/Controller.php:59
+msgid "Security Failed. Please reload the page"
+msgstr "Beveiliging mislukt. Herlaad de pagina"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:124
+msgid "Email Failures"
+msgstr "E-mail mislukkingen"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:120
+#: app/views/admin/digest_email.php:115
+msgid "Emails Sent"
+msgstr "Verzonden e-mails"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:114
+msgid "Showing %1$s of %2$s different subject lines failed in the past %3$s"
+msgstr "Toont %1$s van %2$s verschillende onderwerpregels die in het verleden zijn mislukt %3$s"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:107
+msgid "Showing %1$s of %2$s different subject lines sent in the past %3$s"
+msgstr "Het tonen van %1$s van %2$s verschillende onderwerpregels verzonden in het verleden %3$s"
+
+#: app/Services/TransStrings.php:300
+msgid "No Emails will be sent from your WordPress."
+msgstr "Er worden geen e-mails verstuurd vanuit je WordPress."
+
+#: app/Services/TransStrings.php:299
+msgid "Disable sending all emails. If you enable this, no email will be sent."
+msgstr "Schakel het verzenden van alle e-mails uit. Als je dit inschakelt, wordt er geen e-mail verzonden."
+
+#: app/Services/TransStrings.php:106
+msgid "Email Simulation"
+msgstr "E-mail simulatie"
+
+#: app/Services/TransStrings.php:185
+msgid "Please add another connection to use fallback feature"
+msgstr "Voeg een andere verbinding toe om de terugval functie te gebruiken"
+
+#: app/Services/TransStrings.php:338
+msgid "Fallback Connection will be used if an email is failed to send in one connection. Please select a different connection than the default connection"
+msgstr "Fallback connection wordt gebruikt als het verzenden van een e-mail in een verbinding mislukt. Selecteer een andere verbinding dan de standaardverbinding"
+
+#: app/Services/TransStrings.php:337
+msgid "Select which connection will be used for sending transactional emails from your WordPress. If you use multiple connection then email will be routed based on source from email address"
+msgstr "Selecteer welke verbinding wordt gebruikt voor het verzenden van transactie e-mails vanuit je WordPress. Als je meerdere verbindingen gebruikt dan worden de e-mails gerouteerd op basis van de bron van het e-mailadres"
+
+#: app/Services/TransStrings.php:118
+msgid "Fallback Connection"
+msgstr "Fallback verbinding"
+
+#: app/Services/TransStrings.php:83
+msgid "Default Connection"
+msgstr "Standaardverbinding"
+
+#: app/Services/TransStrings.php:85
+msgid "Delete Logs"
+msgstr "Logs verwijderen"
+
+#: app/Services/TransStrings.php:121
+msgid "FluentCRM Email Logging"
+msgstr "FluentCRM e-mail logging"
+
+#: app/Services/TransStrings.php:88
+msgid "Disable Logging for FluentCRM Emails"
+msgstr "Logging voor FluentCRM e-mails uitschakelen"
+
+#: app/Services/TransStrings.php:163
+msgid "Log All Emails for Reporting"
+msgstr "Log alle e-mails voor rapportage"
+
+#: app/Services/TransStrings.php:215
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: app/Services/TransStrings.php:175
+msgid "Notification Days"
+msgstr "Melding dagen"
+
+#: app/Services/TransStrings.php:98
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: app/Services/TransStrings.php:176
+msgid "Notification Email Addresses"
+msgstr "Melding e-mail adressen"
+
+#: app/Services/TransStrings.php:109
+msgid "Enable Email Summary"
+msgstr "E-mail samenvatting inschakelen"
+
+#: app/Services/TransStrings.php:340
+msgid "Your emails will be routed automatically based on From email address. No additional configuration is required."
+msgstr "Je e-mails worden automatisch gerouteerd op basis van het van e-mailadres. Er is geen extra configuratie nodig."
+
+#: app/Services/TransStrings.php:96
+msgid "Edit Connection"
+msgstr "Verbinding bewerken"
+
+#: app/Services/TransStrings.php:138
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: app/Services/TransStrings.php:67
+msgid "Close"
+msgstr "Sluiten"
+
+#: app/Services/TransStrings.php:71
+msgid "Connection Details"
+msgstr "Verbinding details"
+
+#: app/Services/TransStrings.php:193
+msgid "Provider"
+msgstr "Provider"
+
+#: app/Services/TransStrings.php:33
+msgid "Add Another Connection"
+msgstr "Een andere verbinding toevoegen"
+
+#: app/Services/TransStrings.php:29
+msgid "Active Email Connections"
+msgstr "Actieve e-mailverbindingen"
+
+#: app/Services/TransStrings.php:275
+msgid "Validating Data. Please wait..."
+msgstr "Aan het valideren. Even geduld..."
+
+#: app/Services/TransStrings.php:304
+msgid "When checked, the From Name setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "Indien aangevinkt, wordt de instelling van naam hierboven gebruikt voor alle e-mails, en worden waarden ingesteld door andere plugins genegeerd."
+
+#: app/Services/TransStrings.php:357
+msgid "Credential Verification Failed. Please check your inputs"
+msgstr "Credential verificatie mislukt. Controleer je invoer"
+
+#: app/Services/TransStrings.php:356
+msgid "Please select your email service provider"
+msgstr "Selecteer je e-mail dienst provider"
+
+#: app/Services/TransStrings.php:213
+msgid "Save Connection Settings"
+msgstr "Verbindingsinstellingen opslaan"
+
+#: app/Services/TransStrings.php:132
+#: app/views/admin/general_connection_info.php:16
+#: app/views/admin/ses_connection_info.php:39
+msgid "Force Sender Name"
+msgstr "Afzendernaam forceren"
+
+#: app/Services/TransStrings.php:136
+msgid "From Name"
+msgstr "Van naam"
+
+#: app/Services/TransStrings.php:237
+msgid "Set the return-path to match the From Email"
+msgstr "Stel het retour pad zo in dat het overeenkomt met de van e-mail"
+
+#: app/Services/TransStrings.php:339
+msgid "If checked, the From Email setting above will be used for all emails (It will check if the from email is listed to available connections)."
+msgstr "Indien aangevinkt, wordt de instelling van e-mail hierboven gebruikt voor alle e-mails (er wordt gecontroleerd of de van e-mail in de lijst met beschikbare verbindingen staat)."
+
+#: app/Services/TransStrings.php:131
+msgid "Force From Email (Recommended Settings: Enable)"
+msgstr "Forceren van e-mail (aanbevolen instellingen: inschakelen)"
+
+#: app/Services/TransStrings.php:135
+msgid "From Email"
+msgstr "Van e-mail"
+
+#: app/Services/TransStrings.php:232
+msgid "Sender Settings"
+msgstr "Instellingen afzender"
+
+#: app/Services/TransStrings.php:216
+msgid "Search Results for"
+msgstr "Zoekresultaten voor"
+
+#: app/Services/TransStrings.php:191
+msgid "Prev"
+msgstr "Vorige"
+
+#: app/Services/TransStrings.php:173
+msgid "Next"
+msgstr "Volgende"
+
+#: app/Services/TransStrings.php:56
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#: app/Services/TransStrings.php:99
+msgid "Email Body"
+msgstr "E-mail body"
+
+#: app/Services/TransStrings.php:203
+msgid "Resent Count"
+msgstr "Opnieuw verzonden telling"
+
+#: app/Services/TransStrings.php:272
+msgid "Turn On"
+msgstr "Aanzetten"
+
+#: app/Services/TransStrings.php:201
+msgid "Resend"
+msgstr "Opnieuw verzenden"
+
+#: app/Services/TransStrings.php:204
+msgid "Retry"
+msgstr "Opnieuw proberen"
+
+#: app/Services/TransStrings.php:26
+msgid "Actions"
+msgstr "Acties"
+
+#: app/Services/TransStrings.php:81
+msgid "Date-Time"
+msgstr "Datum-Tijd"
+
+#: app/Services/TransStrings.php:264
+msgid "To"
+msgstr "Naar"
+
+#: app/Services/TransStrings.php:250 app/views/admin/digest_email.php:114
+#: app/views/admin/digest_email.php:164
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: app/Services/TransStrings.php:273
+msgid "Type & press enter..."
+msgstr "Typ & druk op enter…"
+
+#: app/Services/TransStrings.php:120
+msgid "Filter"
+msgstr "Filter"
+
+#: app/Services/TransStrings.php:113
+msgid "End date"
+msgstr "Einddatum"
+
+#: app/Services/TransStrings.php:243
+msgid "Start date"
+msgstr "Startdatum"
+
+#: app/Services/TransStrings.php:223
+msgid "Select date and time"
+msgstr "Selecteer datum en tijd"
+
+#: app/Services/TransStrings.php:252
+msgid "Successful"
+msgstr "Succesvol"
+
+#: app/Services/TransStrings.php:219
+msgid "Select"
+msgstr "Selecteer"
+
+#: app/Services/TransStrings.php:244
+msgid "Status"
+msgstr "Status"
+
+#: app/Services/TransStrings.php:114
+msgid "Enter Full Screen"
+msgstr "Volledig scherm openen"
+
+#: app/Services/TransStrings.php:64
+msgid "Bulk Action"
+msgstr "Bulkactie"
+
+#: app/Services/TransStrings.php:202
+msgid "Resend Selected Emails"
+msgstr "Geselecteerde e-mails opnieuw verzenden"
+
+#: app/Services/TransStrings.php:50
+msgid "Apply"
+msgstr "Toepassen"
+
+#: app/Services/TransStrings.php:65
+msgid "By Date"
+msgstr "Op datum"
+
+#: app/Services/TransStrings.php:156
+msgid "Last 3 months"
+msgstr "Laatste 3 maanden"
+
+#: app/Services/TransStrings.php:159
+msgid "Last month"
+msgstr "Vorige maand"
+
+#: app/Services/TransStrings.php:161
+msgid "Last week"
+msgstr "Vorige week"
+
+#: app/Services/TransStrings.php:251
+msgid "Subscribe To Updates"
+msgstr "Abonneren op updates"
+
+#: app/Services/TransStrings.php:82
+msgid "Days"
+msgstr "Dagen"
+
+#: app/Services/TransStrings.php:86
+msgid "Delete Logs:"
+msgstr "Verwijder logs:"
+
+#: app/Services/TransStrings.php:214
+msgid "Save Email Logs:"
+msgstr "E-mail logs opslaan:"
+
+#: app/Services/TransStrings.php:30
+msgid "Active Senders:"
+msgstr "Actieve afzenders:"
+
+#: app/Services/TransStrings.php:28
+msgid "Active Connections:"
+msgstr "Actieve verbindingen:"
+
+#: app/Services/TransStrings.php:100
+msgid "Email Failed:"
+msgstr "E-mail mislukt:"
+
+#: app/Services/TransStrings.php:267
+msgid "Total Email Sent (Logged):"
+msgstr "Totaal verzonden e-mail (gelogd):"
+
+#: app/Services/TransStrings.php:194
+msgid "Quick Overview"
+msgstr "Snel overzicht"
+
+#: app/Services/TransStrings.php:234
+msgid "Sending Stats"
+msgstr "Statistieken verzenden"
+
+#: app/Services/TransStrings.php:341
+msgid "Please configure your first email service provider connection"
+msgstr "Configureer je eerste e-mail dienst provider verbinding"
+
+#: app/Services/TransStrings.php:342
+msgid "Thank you for installing FluentSMTP - The ultimate SMTP & Email Service Connection Plugin for WordPress"
+msgstr "Bedankt voor het installeren van FluentSMTP - De ultieme SMTP & e-maildienst verbinding plugin voor WordPress"
+
+#: app/Services/TransStrings.php:343
+msgid "Welcome to FluentSMTP"
+msgstr "Welkom bij FluentSMTP"
+
+#: app/Services/TransStrings.php:349
+msgid "confirm"
+msgstr "bevestigen"
+
+#: app/Services/TransStrings.php:345
+msgid "cancel"
+msgstr "annuleren"
+
+#: app/Services/TransStrings.php:103
+msgid "Email Logs"
+msgstr "E-mail logs"
+
+#: app/Services/TransStrings.php:107
+msgid "Email Test"
+msgstr "E-mail test"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:447
+msgid "View All"
+msgstr "Bekijk alles"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:432
+#: app/Services/TransStrings.php:117
+msgid "Failed"
+msgstr "Mislukt"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:431
+msgid "Sent"
+msgstr "Verzonden"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:430
+msgid "Date"
+msgstr "Datum"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:421
+msgid "All"
+msgstr "Alle"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:415
+msgid "Last 7 days"
+msgstr "Laatste 7 dagen"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:408
+#: app/Services/TransStrings.php:266
+msgid "Today"
+msgstr "Vandaag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:312
+msgid "Email Disabled"
+msgstr "E-mail uitgeschakeld"
+
+#: app/Services/Mailer/Providers/config.php:208
+msgid "Gmail/Google Workspace is not recommended for sending mass marketing emails."
+msgstr "Gmail/Google Workspace wordt niet aanbevolen voor het verzenden van massa marketing e-mails."
+
+#: app/Services/Mailer/Providers/config.php:193
+msgid "Gmail or Google Workspace"
+msgstr "Gmail of Google Workspace"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:177
+#: app/Services/Mailer/Providers/Outlook/Handler.php:133
+msgid "Please Provide Auth Token."
+msgstr "Zorg voor een auth token."
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:131
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_SECRET in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_GMAIL_CLIENT_SECRET in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:125
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_ID in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_GMAIL_CLIENT_ID in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:121
+#: app/Services/Mailer/Providers/Outlook/Handler.php:86
+msgid "Application Client Secret key is required."
+msgstr "Applicatie client geheime sleutel is vereist."
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:117
+#: app/Services/Mailer/Providers/Outlook/Handler.php:82
+msgid "Application Client ID is required."
+msgstr "Applicatie client ID is vereist."
+
+#: app/Functions/helpers.php:867
+msgid "Possible Conflict: "
+msgstr "Mogelijk conflict: "
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:33
+msgid "Please define FLUENTMAIL_SMTP_PASSWORD in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_SMTP_PASSWORD in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:29
+msgid "Please define FLUENTMAIL_SMTP_USERNAME in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_SMTP_USERNAME in wp-config.php bestand."
+
+#: app/Hooks/filters.php:18 app/Services/TransStrings.php:238
+msgid "Settings"
+msgstr "Instellingen"
+
+#: app/Hooks/filters.php:17
+msgid "Go to Fluent SMTP Settings page"
+msgstr "Ga naar Fluent SMTP instellingen pagina"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:292
+msgid "Configure FluentSMTP"
+msgstr "FluentSMTP configureren"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:280
+msgid "WordPress version 5.5 or greater is required for FluentSMTP. You are using version %s currently. Please update your WordPress Core to use FluentSMTP Plugin."
+msgstr "WordPress versie 5.5 of hoger is vereist voor FluentSMTP. Je gebruikt nu versie %s. Update je WordPress core om de FluentSMTP plugin te kunnen gebruiken."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:350
+msgid "Fluent SMTP"
+msgstr "Fluent SMTP"
+
+#: app/Http/Controllers/Controller.php:51
+msgid "You do not have permission to do this action"
+msgstr "Je hebt geen toestemming om deze actie uit te voeren"
+
+#: app/Http/Controllers/LoggerController.php:69
+msgid "Email sent successfully."
+msgstr "E-mail succesvol verzonden."
+
+#: app/Http/Controllers/SettingsController.php:336
+msgid "Plugin has been successfully installed."
+msgstr "Plugin is succesvol geïnstalleerd."
+
+#: app/Http/Controllers/SettingsController.php:329
+msgid "Sorry, You can not install this plugin"
+msgstr "Je kunt deze plugin niet installeren"
+
+#: app/Http/Controllers/SettingsController.php:323
+msgid "Go to Ninja Tables Dashboard"
+msgstr "Ga naar het Ninja tabellen dashboard"
+
+#: app/Http/Controllers/SettingsController.php:319
+msgid "Go to FluentCRM Dashboard"
+msgstr "Ga naar FluentCRM dashboard"
+
+#: app/Http/Controllers/SettingsController.php:315
+msgid "Go to Fluent Forms Dashboard"
+msgstr "Ga naar het Fluent Forms dashboard"
+
+#: app/Http/Controllers/SettingsController.php:215
+#: app/Http/Controllers/SettingsController.php:235
+#: app/Http/Controllers/SettingsController.php:273
+msgid "Sorry no connection found. Please reload the page and try again"
+msgstr "Maar geen verbinding gevonden. Herlaad de pagina en probeer het opnieuw"
+
+#: app/Http/Controllers/SettingsController.php:167
+msgid "Email delivered successfully."
+msgstr "E-mail succesvol afgeleverd."
+
+#: app/Http/Controllers/SettingsController.php:156
+msgid "The email field is required."
+msgstr "Het e-mail veld is vereist."
+
+#: app/Http/Controllers/SettingsController.php:95
+#: app/Http/Controllers/SettingsController.php:140
+msgid "Settings saved successfully."
+msgstr "Instellingen succesvol opgeslagen."
+
+#: app/Http/Controllers/SettingsController.php:117
+msgid "General Settings has been updated"
+msgstr "Algemene instellingen zijn geüpdatet"
+
+#: app/Services/Mailer/Providers/SendInBlue/ValidatorTrait.php:23
+msgid "Please define FLUENTMAIL_SENDINBLUE_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_SENDINBLUE_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/SparkPost/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_SPARKPOST_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_SPARKPOST_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/SendGrid/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_SENDGRID_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_SENDGRID_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:31
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:31
+msgid "Please define FLUENTMAIL_MAILGUN_DOMAIN in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_MAILGUN_DOMAIN in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:27
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:27
+msgid "Please define FLUENTMAIL_MAILGUN_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_MAILGUN_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:23
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:23
+msgid "Domain name is required."
+msgstr "Domeinnaam is vereist."
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:32
+msgid "Please define FLUENTMAIL_AWS_SECRET_ACCESS_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_AWS_SECRET_ACCESS_KEY in wp config.php bestand."
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:28
+msgid "Please define FLUENTMAIL_AWS_ACCESS_KEY_ID in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_AWS_ACCESS_KEY_ID in wp config.php bestand."
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:24
+msgid "Secret key is required."
+msgstr "Geheime sleutel is vereist."
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:20
+msgid "Access key is required."
+msgstr "Toegangssleutel is vereist."
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:41
+msgid "SMTP password is required."
+msgstr "SMTP wachtwoord is vereist."
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:37
+msgid "SMTP username is required."
+msgstr "SMTP gebruikersnaam is vereist."
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:23
+msgid "SMTP port is required."
+msgstr "SMTP poort is vereist."
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:19
+msgid "SMTP host is required."
+msgstr "SMTP host is vereist."
+
+#: app/Services/Mailer/Providers/config.php:242
+msgid "The Default option does not use SMTP or any Email Service Providers so it will not improve email delivery on your site."
+msgstr "De standaard optie maakt geen gebruik van SMTP of enige e-mail dienst providers, dus het zal de aflevering van e-mail op je site niet verbeteren."
+
+#: app/Services/Mailer/Providers/config.php:120
+msgid "SparkPost"
+msgstr "SparkPost"
+
+#: app/Services/Mailer/Providers/config.php:106
+msgid "Sendinblue"
+msgstr "Sendinblue"
+
+#: app/Services/Mailer/Providers/config.php:92
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: app/Services/Mailer/Providers/config.php:75
+msgid "Mailgun"
+msgstr "Mailgun"
+
+#: app/Services/Mailer/Providers/config.php:67
+msgid "AWS GovCloud (US)"
+msgstr "AWS GovCloud (VS)"
+
+#: app/Services/Mailer/Providers/config.php:66
+msgid "Middle East (Bahrain)"
+msgstr "Midden-Oosten (Bahrein)"
+
+#: app/Services/Mailer/Providers/config.php:65
+msgid "South America (São Paulo)"
+msgstr "Zuid-Amerika (São Paulo)"
+
+#: app/Services/Mailer/Providers/config.php:63
+msgid "Asia Pacific (Tokyo)"
+msgstr "Azië Pacific (Tokio)"
+
+#: app/Services/Mailer/Providers/config.php:62
+msgid "Asia Pacific (Sydney)"
+msgstr "Aziatisch Pacific (Sydney)"
+
+#: app/Services/Mailer/Providers/config.php:61
+msgid "Asia Pacific (Singapore)"
+msgstr "Azië Pacific (Singapore)"
+
+#: app/Services/Mailer/Providers/config.php:60
+msgid "Asia Pacific (Seoul)"
+msgstr "Azië Pacific (Seoel)"
+
+#: app/Services/Mailer/Providers/config.php:59
+msgid "Asia Pacific (Mumbai)"
+msgstr "Azië Pacific (Mumbai)"
+
+#: app/Services/Mailer/Providers/config.php:58
+msgid "Europe (Stockholm)"
+msgstr "Europa (Stockholm)"
+
+#: app/Services/Mailer/Providers/config.php:56
+msgid "EU (Frankfurt)"
+msgstr "EU (Frankfurt)"
+
+#: app/Services/Mailer/Providers/config.php:55
+msgid "Europe (Paris)"
+msgstr "Europa (Parijs)"
+
+#: app/Services/Mailer/Providers/config.php:54
+msgid "EU (London)"
+msgstr "EU (Londen)"
+
+#: app/Services/Mailer/Providers/config.php:53
+msgid "EU (Ireland)"
+msgstr "EU (Ierland)"
+
+#: app/Services/Mailer/Providers/config.php:52
+msgid "Canada (Central)"
+msgstr "Canada (Centraal)"
+
+#: app/Services/Mailer/Providers/config.php:51
+msgid "US West (Oregon)"
+msgstr "VS West (Oregon)"
+
+#: app/Services/Mailer/Providers/config.php:50
+msgid "US West (N. California)"
+msgstr "VS West (N. California)"
+
+#: app/Services/Mailer/Providers/config.php:49
+msgid "US East (Ohio)"
+msgstr "VS Oost (Ohio)"
+
+#: app/Services/Mailer/Providers/config.php:48
+msgid "US East (N. Virginia)"
+msgstr "VS Oost (N. Virginia)"
+
+#: app/Services/Mailer/Providers/config.php:33
+msgid "Amazon SES"
+msgstr "Amazon SES"
+
+#: app/Services/Mailer/Providers/PepiPost/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_PEPIPOST_API_KEY in wp-config.php file."
+msgstr "Definieer FLUENTMAIL_PEPIPOST_API_KEY in wp-config.php bestand."
+
+#: app/Services/Mailer/Providers/ElasticMail/ValidatorTrait.php:19
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:19
+#: app/Services/Mailer/Providers/PepiPost/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/Postmark/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/SendGrid/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/SendInBlue/ValidatorTrait.php:19
+#: app/Services/Mailer/Providers/Smtp2Go/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/SparkPost/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:19
+msgid "Api key is required."
+msgstr "API-sleutel is vereist."
+
+#: app/Services/Mailer/ValidatorTrait.php:20
+msgid "Invalid email address."
+msgstr "Ongeldig e-mailadres."
+
+#: app/Services/Mailer/ValidatorTrait.php:16
+msgid "Sender email is required."
+msgstr "E-mail van de afzender is vereist."
+
+#. Author of the plugin
+#: fluent-smtp.php
+msgid "FluentSMTP & WPManageNinja Team"
+msgstr "FluentSMTP & WPManageNinja Team"
+
+#. Description of the plugin
+#: fluent-smtp.php
+msgid "The Ultimate SMTP Connection Plugin for WordPress."
+msgstr "De ultieme SMTP verbindingsplugin voor WordPress."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fluent-smtp.php
+msgid "https://fluentsmtp.com"
+msgstr "https://fluentsmtp.com"
+
+#. Plugin Name of the plugin
+#: fluent-smtp.php app/Hooks/Handlers/AdminMenuHandler.php:109
+msgid "FluentSMTP"
+msgstr "FluentSMTP"
