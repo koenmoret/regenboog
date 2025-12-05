@@ -7,8 +7,21 @@ Version: 1.0.0
 */
 
 /* =======================
+   Kleuren & assets
+======================= */
+
+:root {
+    --rb-blue: #1E4C9B;   /* footer-achtergrond */
+    --rb-light: #5EC0CF;  /* hemels blauw */
+    --rb-text: #ffffff;   /* tekst/icon wit */
+    --rb-link: #1A1A1A;
+}
+
+
+/* =======================
    ALGEMEEN
 ======================= */
+
 
 #ast-desktop-header .main-header-menu .menu-link:focus-visible {
     outline: none !important;
@@ -38,14 +51,14 @@ img.custom-logo {
 #ast-desktop-header .main-header-menu > .menu-item > .menu-link {
     font-weight: 700;
     padding: 0 20px;
-    color: #1A1A1A;
+    color: var(--rb-link);
     display: flex;
     align-items: center;
     height: 50px;
 }
 
 #ast-desktop-header .main-header-menu > .menu-item > .menu-link:hover {
-    color: #1D4E96;
+    color: var(--rb-blue);
 }
 
 /* —— Live stream knop —— */
@@ -57,9 +70,8 @@ img.custom-logo {
     gap: 10px;
     height: 50px;
     padding: 0 26px !important;
-    border: 2px solid #5EC0CF;
+    border: 2px solid var(--rb-light);
     border-radius: 999px;
-    color: #1D4E96 !important;
     font-weight: 700;
     line-height: 1;
 }
@@ -76,8 +88,8 @@ img.custom-logo {
 }
 
 #ast-desktop-header .last-menu-item > a.menu-link:hover {
-    border-color: #163b73;
-    color: #163b73 !important;
+    border-color: var(--rb-light);
+    color: var(--rb-blue) !important;
     transform: scale(1.02);
     transition: 0.1s ease-out;
 }
@@ -146,95 +158,137 @@ img.custom-logo {
     padding: 50px 0 100px 0;
 }
 
-/* ============================================
-   FOOTER – REGENBOOG
-============================================ */
 
-:root {
-    --rb-blue: #1E4C9B;
-    --rb-light: #5EC0CF;
-    --rb-text: #fff;
-}
+/* ============================================================
+   FOOTER – De Regenboog
+   Definitieve versie – 4 gelijke kolommen + uitlijning fixes
+============================================================ */
 
-/* Wrapper */
+/* Algemene footer styling */
 .rb-footer {
     background: var(--rb-blue);
     color: var(--rb-text);
     padding: 80px 32px 30px;
 }
 
-/* 4 gelijke kolommen */
+.rb-footer a {
+    color: var(--rb-text);
+    text-decoration: none;
+}
+
+.rb-footer a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   GRID STRUCTUUR
+============================================ */
 .rb-footer__inner {
     max-width: 1200px;
     margin: 0 auto;
+
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 48px;
-    align-items: start;
+    grid-template-columns: repeat(4, 1fr);  /* 4 gelijke kolommen */
+    gap: 40px;
+    align-items: stretch;
 }
 
-/* Kolom 1 */
+/* ============================================
+   KOLOM 1 – LOGO
+============================================ */
+.rb-footer__brand {
+    display: flex;
+    align-items: center; /* verticaal centreren */
+}
+
 .rb-footer__logo {
     width: 166px;
+    height: auto;
 }
 
-/* Kolom 2 (menu) */
+/* ============================================
+   KOLOM 2 – MENU
+============================================ */
 .rb-footer__links {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-}
-.rb-footer__links-inner {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-start;    /* Houdt tekst links */
+    height: 100%;               /* Nodig voor correcte centering */
 }
 
 .rb-footer__menu {
     list-style: none;
+    padding: 0;
+    margin: 0 0 0 33%;
+
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    margin: 0;
-    padding: 0;
+    gap: 12px;
+
+    text-align: left; /* tekst links */
 }
 
-.rb-footer__menu a {
-    font-size: 17px;
+.rb-footer__menu li a {
     font-weight: 600;
+    font-size: 17px;
     line-height: 1.3;
-    color: var(--rb-text);
-    text-decoration: none;
 }
-
-/* Kolom 3 (contact) */
-.rb-footer__contact {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-}
-
+/* Contact kolom spacing precies gelijk aan menu */
 .rb-footer__contact-inner {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 14px;
-    margin-bottom: 40px;
+    gap: 10px; /* zelfde spacing als menu items */
+
+    padding-bottom: 34px;
+}
+
+/* Tekstregels in contactkolom dezelfde line-height als menu */
+.rb-footer__line,
+.rb-footer__heading {
+    margin: 4px 0;
+    line-height: 1.3;
+}
+.rb-footer__line, .rb-footer__line a,
+.rb-footer__heading p, .rb-footer__heading a {
+    font-weight: 600!important;
+    font-size: 17px!important;
+    line-height: 1.3!important;
+}
+
+
+/* ============================================
+   KOLOM 3 – CONTACT
+============================================ */
+.rb-footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    gap: 12px;
+    text-align: left;
+}
+
+.rb-footer__contact-inner {
+    margin: 0 0 0 18%;
+    line-height: 1.3;
+}
+
+.rb-footer__heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.05rem;
 }
 
 .rb-footer__line {
     display: flex;
-    gap: 15px;
-    font-weight: 600;
-    margin: 0;
+    align-items: center;
+    gap: 10px;
+    margin: 4px 0;
 }
 
-.rb-footer__line a {
-    color: var(--rb-text);
-    text-decoration: none;
-}
-
-/* Icons */
+/* Icon consistentie */
 .rb-icon {
     width: 22px;
     height: 22px;
@@ -245,130 +299,98 @@ img.custom-logo {
     height: 20px;
 }
 
-/* Kolom 4 (live + socials) */
+/* ============================================
+   KOLOM 4 – LIVE & SOCIALS
+============================================ */
 .rb-footer__socials {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    height: 100%;
+    align-items: flex-end; /* volledige kolom rechts */
+    justify-content: center; /* verticaal gecentreerd */
+    gap: 20px;
 }
 
-.rb-footer__socials-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    margin-bottom: 14px;
-  }
-
-/* Live stream knop */
+/* Live stream button */
 .rb-footer__live {
     display: inline-flex;
     align-items: center;
     gap: 10px;
+
     background: var(--rb-light);
     color: #0e2c70;
+
     padding: 12px 26px;
-    font-size: 17px;
-    border-radius: 999px;
     font-weight: 700;
+    border-radius: 999px;
     text-decoration: none;
+
+    font-size: 17px;
 }
 
-.rb-footer__live .rb-icon {
-    filter: brightness(0) invert(1);
-    width: 27.75px;
-    height: 17.66px;
-}
-
-.rb-footer__live:hover {
-    background: #76d4dd;
-}
-
-/* Social icons */
+/* Social icons rij */
 .rb-footer__social {
     list-style: none;
-    display: flex;
-    gap: 18px;
     margin: 0;
     padding: 0;
+
+    display: flex;
+    gap: 16px;
 }
 
 .rb-footer__social .is-circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45px;
-    height: 45px;
+    display: grid;
+    place-items: center;
+
+    width: 44px;
+    height: 44px;
     border-radius: 999px;
-    border: none;
+
+    border: 2px solid rgba(255,255,255,.5);
+    transition: transform .2s ease, background .2s ease;
 }
 
-.rb-footer__social .is-circle img {
-    width: 100%;
-    height: 100%;
-}
 .rb-footer__social .is-circle:hover {
-    background: var(--rb-light);
-} 
-
-/* Bottom */
-.rb-footer__bottom {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,.3);
-    font-size: 14px;
-    opacity: 0.8;
+    background: rgba(255,255,255,.15);
+    transform: translateY(-2px);
 }
-
-
-
 
 /* ============================================
-   RESPONSIVE (TABLET)
+   COPYRIGHT
 ============================================ */
+.rb-footer__bottom {
+    max-width: 1200px;
+    margin: 24px auto 0;
+    padding-top: 18px;
+
+    border-top: 1px solid rgba(255,255,255,.15);
+    opacity: .9;
+    font-size: .92rem;
+}
+
+/* ============================================
+   RESPONSIVE (mobiel & tablet)
+============================================ */
+
 @media (max-width: 992px) {
     .rb-footer__inner {
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap: 30px;
     }
+
     .rb-footer__socials {
-        align-items: flex-start;
+        align-items: flex-start; /* op tablet niet extreem rechts */
     }
 }
 
-/* ============================================
-   RESPONSIVE (MOBIEL)
-============================================ */
 @media (max-width: 600px) {
     .rb-footer__inner {
         grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    .rb-footer__brand,
-    .rb-footer__links,
-    .rb-footer__contact,
-    .rb-footer__socials {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
         text-align: left;
     }
 
-    .rb-footer__links {
-      margin-left: -65px;
-    }
-
-    .rb-footer__contact-inner {
-      margin-bottom: 0;
-    }
-
     .rb-footer__socials {
-        align-items: center;
-    }
-
-    .rb-footer__socials-inner {
         align-items: flex-start;
     }
 }
+
+
