@@ -277,6 +277,8 @@ img.custom-logo {
 
 .rb-footer__live .rb-icon {
     filter: brightness(0) invert(1);
+    width: 27.75px;
+    height: 17.66px;
 }
 
 .rb-footer__live:hover {
@@ -323,22 +325,21 @@ img.custom-logo {
 
 
 /* ============================================
-   RESPONSIVE
+   RESPONSIVE (TABLET)
 ============================================ */
-
-/* Tablet */
 @media (max-width: 992px) {
     .rb-footer__inner {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-
     .rb-footer__socials {
         align-items: flex-start;
     }
 }
 
-/* Mobiel */
+/* ============================================
+   RESPONSIVE (MOBIEL)
+============================================ */
 @media (max-width: 600px) {
     .rb-footer__inner {
         grid-template-columns: 1fr;
@@ -349,8 +350,25 @@ img.custom-logo {
     .rb-footer__links,
     .rb-footer__contact,
     .rb-footer__socials {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
         text-align: left;
+    }
+
+    .rb-footer__links {
+      margin-left: -65px;
+    }
+
+    .rb-footer__contact-inner {
+      margin-bottom: 0;
+    }
+
+    .rb-footer__socials {
+        align-items: center;
+    }
+
+    .rb-footer__socials-inner {
         align-items: flex-start;
     }
 }
-
