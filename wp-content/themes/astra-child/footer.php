@@ -63,11 +63,16 @@ if ( ! defined('ABSPATH') ) exit;
 
     <!-- Kolom 4: Live / Socials -->
     <div class="rb-footer__socials">
+<<<<<<< HEAD
 
       <div class="rb-footer__socials-inner">
       <a class="rb-footer__live" href="/live">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/camera.svg"
 
+=======
+       <a class="rb-footer__live" href="/live">
+        <img src="http://localhost/regenboog/wp-content/uploads/2025/12/camera.png"
+>>>>>>> 05cfa78 (update footer)
              alt="" aria-hidden="true" class="rb-icon rb-icon--btn">
         Live stream
       </a>
