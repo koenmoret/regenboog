@@ -1,0 +1,73 @@
+# ------------------------------------------------------------
+# AHA RAPPORTAGE PLUGIN - .gitignore
+# ------------------------------------------------------------
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# WordPress core files (nooit committen)
+wp-config.php
+wp-config-sample.php
+
+# WordPress cache / temp
+wp-content/cache/
+wp-content/uploads/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/updraft/
+wp-content/backup-db/
+
+# WordFence logs (BELANGRIJK)
+wp-content/wflogs/
+
+# Plugins die zichzelf genereren
+wp-content/plugins/wordfence/
+wp-content/plugins/elementor/cache/
+
+# Moodle & PHP algemeen
+config.php
+config.php.local
+localcache/
+muc/
+cache/
+sessions/
+dataroot/
+*.log
+*.tmp
+*.bak
+
+# Composer / npm
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Build / export bestanden
+*.zip
+*.tar.gz
+*.rar
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# PHPStorm meta / tests
+.phpunit.result.cache
+tests/coverage/
+coverage.xml
+
+# Logs en tijdelijke rapportages
+report_*.xlsx
+export_*.csv
+export_*.xlsx
+*.xls
+*.csv
+
+# OS specifieke
+ehthumbs.db
+desktop.ini

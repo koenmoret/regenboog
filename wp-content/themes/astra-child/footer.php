@@ -1,111 +1,82 @@
 <?php
-/**
- * Custom Footer – Regenboog (Astra Child)
- */
-if ( ! defined('ABSPATH') ) exit;
-?>
 
-    </div><!-- #content -->
-</div><!-- #page -->
+// Voeg titel "Menu" toe boven het mobiele menu
+add_filter('wp_nav_menu_items', 'regenboog_add_mobile_menu_title', 20, 2);
 
-<footer class="rb-footer" role="contentinfo">
-  <div class="rb-footer__inner">
+function regenboog_add_mobile_menu_title($items, $args) {
+    // Alleen voor het Astra mobiele menu
+    if (isset($args->theme_location) && $args->theme_location === 'mobile_menu') {
+        $title = '<li class="menu-title-regenboog">Menu</li>';
+        // Titel bovenaan plaatsen
+        return $title . $items;
+    }
+    return $items;
+}
 
-    <!-- Kolom 1: Logo -->
-    <div class="rb-footer__brand">
-      <img
-        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-regenboog-white.svg"
-        alt="De Regenboog"
-        class="rb-footer__logo">
-    </div>
+add_action('wp_enqueue_scripts', function () {
+    // Child theme style.css, laadt na Astra door dependency op 'astra-theme-css'
+    wp_enqueue_style(
+        'astra-child-style',
+        get_stylesheet_uri(),
+        array('astra-theme-css'),
+        wp_get_theme()->get('Version')
+    );
 
-    <!-- Kolom 2: Menu -->
-    <nav class="rb-footer__links" aria-label="Footer">
+    // Optioneel: extra custom.css als je die ooit toevoegt
+    $custom = get_stylesheet_directory() . '/style.css';
+    if (file_exists($custom)) {
+        wp_enqueue_style(
+            'astra-child-custom',
+            get_stylesheet_directory_uri() . '/style.css',
+            array('astra-child-style'),
+            filemtime($custom)
+        );
+    }
+}, 20);
 
-      <div class="rb-footer__links-inner">
+function my_child_theme_scripts() {
+    // Laad menu.js
+    wp_enqueue_script(
+        'menu',
+        get_stylesheet_directory_uri() . '/js/menu.js',
+        array(), // afhankelijkheden, bijv. array('jquery')
+        false,
+        true // in de footer
+    );
 
-      <?php
-      wp_nav_menu([
-        'theme_location' => 'footer_menu',
-        'container'      => false,
-        'menu_class'     => 'rb-footer__menu',
-        'fallback_cb'    => false
-      ]);
-      ?>
+    // Laad custom.js
+    wp_enqueue_script(
+        'custom-script',
+        get_stylesheet_directory_uri() . '/js/custom.js',
+        array(), // afhankelijkheden, bijv. array('jquery')
+        filemtime(get_stylesheet_directory() . '/js/custom.js'), // versie voor cache-busting
+        true // in de footer
+    );
+}
+add_action('wp_enqueue_scripts', 'my_child_theme_scripts');
 
-      </div>
-    </nav>
+function allow_svg_uploads( $mimes ) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter( 'upload_mimes', 'allow_svg_uploads' );
 
-    <!-- Kolom 3: Contact -->
-    <div class="rb-footer__contact">
-      <div class="rb-footer__contact-inner">
 
+function regenboog_enqueue_gsap() {
+    wp_enqueue_script(
+        'gsap',
+        'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js',
+        array(),
+        null,
+        true
+    );
 
-        <div class="rb-footer__line">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/agenda.svg"
-               alt="" aria-hidden="true" class="rb-icon">
-          <span>Agenda</span>
-        </div>
-
-        <p class="rb-footer__line">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/marker.svg"
-               alt="" aria-hidden="true" class="rb-icon">
-          <span>De Grote Pekken 11</span>
-        </p>
-
-        <p class="rb-footer__line">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/phone.svg"
-               alt="" aria-hidden="true" class="rb-icon">
-          <a href="tel:0318200115">0318 200 115</a>
-        </p>  
-      </div>
-    </div>
-
-    <!-- Kolom 4: Live / Socials -->
-    <div class="rb-footer__socials">
-<<<<<<< HEAD
-
-      <div class="rb-footer__socials-inner">
-      <a class="rb-footer__live" href="/live">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/camera.svg"
-
-=======
-       <a class="rb-footer__live" href="/live">
-        <img src="http://localhost/regenboog/wp-content/uploads/2025/12/camera.png"
->>>>>>> 05cfa78 (update footer)
-             alt="" aria-hidden="true" class="rb-icon rb-icon--btn">
-        Live stream
-      </a>
-
-      <ul class="rb-footer__social" aria-label="Social media">
-
-        <li>
-          <a class="is-circle" href="https://youtube.com" target="_blank" rel="noopener">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/youtube.svg" alt="YouTube" class="rb-icon">
-          </a>
-        </li>
-
-        <li>
-          <a class="is-circle" href="https://vimeo.com" target="_blank" rel="noopener">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vimeo.svg" alt="Vimeo" class="rb-icon">
-          </a>
-        </li>
-
-        <li>
-          <a class="is-circle" href="https://facebook.com" target="_blank" rel="noopener">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/facebook.svg" alt="Facebook" class="rb-icon">
-          </a>
-        </li>
-      </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="rb-footer__bottom">
-    <small>© <?php echo date('Y'); ?> De Regenboog</small>
-  </div>
-</footer>
-
-<?php wp_footer(); ?>
-</body>
-</html>
+    wp_enqueue_script(
+        'regenboog-header-animations',
+        get_stylesheet_directory_uri() . '/js/header-animations.js',
+        array('gsap'),
+        null,
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'regenboog_enqueue_gsap');
