@@ -289,6 +289,7 @@ img.custom-logo {
 .rb-footer__social {
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
     gap: 18px;
     margin: 0;
     padding: 0;
