@@ -3,6 +3,8 @@
 Deze README beschrijft hoe de WordPress-site van **De Regenboog** lokaal ontwikkeld, overgezet en live geïnstalleerd moet worden.  
 Alle benodigde plugins, WordPress-versies, PHP-versies en child-theme instellingen worden hieronder toegelicht.
 
+![Homepage screenshot](assets/screenshot-homepage.png)
+
 ---
 
 ## 📦 1. Systeemvereisten
@@ -127,3 +129,57 @@ wp search-replace 'http://localhost/regenboog' 'https://www.jouwsite.nl'
 **Kapotte afbeeldingen?**  
 → URL's zijn nog lokaal → zoek & vervang.
 
+---
+
+## 🔑 11. Belangrijk: Security-configuratie in wp-config.php
+
+Bij het live zetten van de website moet wp-config.php worden gecontroleerd en aangevuld.
+De volgende instellingen zijn essentieel voor veiligheid en stabiliteit.
+
+✔ 11.1. Nieuwe Authentication Keys & Salts instellen
+
+Deze MOETEN altijd worden vervangen bij een nieuwe installatie of migratie.
+
+WordPress genereert deze automatisch via:
+
+🔗 https://api.wordpress.org/secret-key/1.1/salt/
+
+In wp-config.php vervang je de bestaande regels:
+
+```
+// --- Keys & Salts (vervang door echte waarden!) ---
+define( 'AUTH_KEY',         'vervang_mij' );
+define( 'SECURE_AUTH_KEY',  'vervang_mij' );
+define( 'LOGGED_IN_KEY',    'vervang_mij' );
+define( 'NONCE_KEY',        'vervang_mij' );
+define( 'AUTH_SALT',        'vervang_mij' );
+define( 'SECURE_AUTH_SALT', 'vervang_mij' );
+define( 'LOGGED_IN_SALT',   'vervang_mij' );
+define( 'NONCE_SALT',       'vervang_mij' );
+```
+Na vervanging worden alle sessies ongeldig gemaakt.
+Gebruikers moeten opnieuw inloggen — dit is gewenst en veiliger.
+
+✔ 11.2 Debugging uitschakelen op productie
+
+Zorg dat debugging uit staat in een live omgeving:
+
+// --- Debug modes uit op productie ---
+define( 'WP_DEBUG', false );
+define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+
+Dit voorkomt dat foutmeldingen zichtbaar worden voor bezoekers.
+
+✔ 11.3 Aanvullende aanbevolen instellingen
+// Forceer directe file writing (voorkomt FTP prompts)
+define( 'FS_METHOD', 'direct' );
+
+// Automatische updates toestaan
+define( 'AUTOMATIC_UPDATER_DISABLED', false );
+
+In functions.php wordt aangeraden om de WP-versie te verbergen:
+
+// Verberg WordPress versie-informatie
+remove_action('wp_head', 'wp_generator');
