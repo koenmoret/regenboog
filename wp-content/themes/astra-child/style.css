@@ -146,6 +146,33 @@ img.custom-logo {
     padding: 50px 0 100px 0;
 }
 
+
+/* ============================================
+   HERO – REGENBOOG
+============================================ */
+
+.section-hero {
+    height: calc(100vh - 195px);
+}
+
+/* Hero container: boog naar rechterkant duwen */
+.section-hero {
+   
+}
+
+.hero-boog-anim {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;       /* zelfde schaal als je background-size */
+    pointer-events: none;
+    z-index: 2;        /* boven de background, onder content */
+    opacity: 0;        /* start onzichtbaar voor GSAP */
+    transform-origin: center;
+}
+
+
+
 /* ============================================
    FOOTER – REGENBOOG
 ============================================ */
