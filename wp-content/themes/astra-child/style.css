@@ -146,45 +146,211 @@ img.custom-logo {
     padding: 50px 0 100px 0;
 }
 
-/* ================================
-   MOBILE TOOLBAR ONDERAAN
-================================ */
+/* ============================================
+   FOOTER – REGENBOOG
+============================================ */
 
-.regenboog-mobile-toolbar {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    background: #ffffff;
-
-    display: flex;
-    justify-content: center;
-    gap: 0;
-
-    padding: 14px 0;
-    z-index: 999;
+:root {
+    --rb-blue: #1E4C9B;
+    --rb-light: #5EC0CF;
+    --rb-text: #fff;
 }
 
-/* Toolbar knoppen */
+/* Wrapper */
+.rb-footer {
+    background: var(--rb-blue);
+    color: var(--rb-text);
+    padding: 80px 32px 30px;
+}
 
-.regenboog-mobile-toolbar .toolbar-btn {
-    width: 55px;
-    height: 55px;
-    background: #1D4E96;
-    border-radius: 0;
+/* 4 gelijke kolommen */
+.rb-footer__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+    align-items: start;
+}
 
+/* Kolom 1 */
+.rb-footer__logo {
+    width: 166px;
+}
+
+/* Kolom 2 (menu) */
+.rb-footer__links {
     display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.rb-footer__links-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.rb-footer__menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.rb-footer__menu a {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--rb-text);
+    text-decoration: none;
+}
+
+/* Kolom 3 (contact) */
+.rb-footer__contact {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.rb-footer__contact-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+
+.rb-footer__line {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.rb-footer__line a {
+    color: var(--rb-text);
+    text-decoration: none;
+}
+
+/* Icons */
+.rb-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.rb-icon--btn {
+    width: 20px;
+    height: 20px;
+}
+
+/* Kolom 4 (live + socials) */
+.rb-footer__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.rb-footer__socials-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+/* Live stream knop */
+.rb-footer__live {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-
-    color: #fff;
-    font-size: 24px;
-    border: none;
-    border-right: 1px solid #bdbdbd;
-    transition: transform 0.15s ease, background 0.2s ease;
+    gap: 10px;
+    background: var(--rb-light);
+    color: #0e2c70;
+    padding: 12px 26px;
+    font-size: 17px;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-.regenboog-mobile-toolbar .toolbar-btn:hover {
-    transform: scale(1.09);
-    background: #163b73;
+.rb-footer__live .rb-icon {
+    filter: brightness(0) invert(1);
+}
+
+.rb-footer__live:hover {
+    background: #76d4dd;
+}
+
+/* Social icons */
+.rb-footer__social {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.rb-footer__social .is-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 999px;
+    border: none;
+}
+
+.rb-footer__social .is-circle img {
+    width: 100%;
+    height: 100%;
+}
+.rb-footer__social .is-circle:hover {
+    background: var(--rb-light);
+} 
+
+/* Bottom */
+.rb-footer__bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,.3);
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+
+
+/* ============================================
+   RESPONSIVE
+============================================ */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .rb-footer__inner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .rb-footer__socials {
+        align-items: flex-start;
+    }
+}
+
+/* Mobiel */
+@media (max-width: 600px) {
+    .rb-footer__inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .rb-footer__brand,
+    .rb-footer__links,
+    .rb-footer__contact,
+    .rb-footer__socials {
+        text-align: left;
+        align-items: flex-start;
+    }
 }
 
