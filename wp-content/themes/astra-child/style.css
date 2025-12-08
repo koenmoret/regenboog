@@ -10,10 +10,37 @@ Version: 1.0.0
    ALGEMEEN
 ======================= */
 
+:root {
+    --rb-blue: #1E4C9B;
+    --rb-light: #5EC0CF;
+    --rb-text: #1D1E1C;
+    --rb-text-white: #FFF;
+}
+
 #ast-desktop-header .main-header-menu .menu-link:focus-visible {
     outline: none !important;
     box-shadow: 0 0 0 2px rgba(29, 78, 150, 0.3) !important;
     border-radius: 4px !important;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 58px;
+    color: var(--rb-blue)!important;
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 30px;
+    color: var(--rb-text);
+}
+a {
+    font-family: Poppins;
 }
 
 /* =======================
@@ -151,24 +178,104 @@ img.custom-logo {
    HERO – REGENBOOG
 ============================================ */
 
-.section-hero {
-    height: calc(100vh - 195px);
+.wp-block-uagb-container.uagb-block-e59ae7bc.section-hero {
+  position: relative;
+  height: calc(100vh - 195px)!important;
+  min-height: calc(100vh - 195px)!important;
+  margin-left: calc(50% - 50vw) !important;  /* echte edge-to-edge */
+  margin-right: calc(50% - 50vw) !important;
+  max-width: 100vw !important;
+  overflow: hidden;
 }
 
-/* Hero container: boog naar rechterkant duwen */
-.section-hero {
-   
-}
-
+/* Oranje boog rechts */
 .hero-boog-anim {
-    position: absolute;
+    position: absolute!important;
     top: 0;
-    right: 0;
-    height: 100%;       /* zelfde schaal als je background-size */
-    pointer-events: none;
-    z-index: 2;        /* boven de background, onder content */
-    opacity: 0;        /* start onzichtbaar voor GSAP */
+    right: -40px;
+    width: 32vw;     /* schaalbaar */
+    height: auto;
+    opacity: 0;      /* start voor GSAP */
+    z-index: 1 !important; 
     transform-origin: center;
+    pointer-events: none;
+}
+
+
+.hero-inner {
+  position: relative;
+  z-index: 10 !important;        /* boven de boog */
+  max-width: 1280px!important;   /* contentbreedte */
+  margin: 0 auto!important;  
+  padding: 48px 24px 64px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;  /* verhouding tekst/foto */
+  align-items: center;
+  gap: 48px;
+}
+
+/* Tekststijl */
+.hero-title {
+  font-family: Georgia, "Times New Roman", serif; /* vervang met jouw font */
+  font-weight: 800;
+  line-height: 1.05;
+  font-size: 4rem;
+  color: var(--rb-blue);  /* Regenboog blauw */
+  margin: 0 0 24px;
+  padding-left: 10px;
+}
+
+.hero-lead {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  color: var(--rb-text);
+  margin: 0 0 20px 0!important;
+}
+
+/* CTA’s */
+.hero-cta { display: flex; gap: 16px; flex-wrap: wrap; }
+
+.btn .wp-block-button__link {
+  display: inline-flex; align-items: center; justify-content: center;
+  height: 50px;
+  width: 152px;
+  padding: 12px 26px;
+  border-radius: 50px;
+  border-color: var(--rb-blue)!important;
+  font-weight: 600; 
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+.btn-primary .wp-block-button__link {
+  border-color: var(--rb-blue)!important;
+  background: var(--rb-blue)!important;
+  color: #fff;
+}
+
+.wp-block-button__link:hover {
+  background: var(--rb-light)!important;
+  border-color: var(--rb-light)!important;
+}
+
+/* Fotokaart rechts – afgeronde vorm + schaduw */
+.hero-photo-card {
+  position: relative;
+  width: min(560px, 44vw);
+  margin-left: auto;
+  border-radius: 220px 220px 28px 220px; /* rond aan 3 kanten, kleine radius rechts-onder */
+  overflow: hidden;
+  box-shadow: 0 18px 36px rgba(0,0,0,.18);
+  background: #fff;
+}
+
+.hero-photo-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 
@@ -177,16 +284,10 @@ img.custom-logo {
    FOOTER – REGENBOOG
 ============================================ */
 
-:root {
-    --rb-blue: #1E4C9B;
-    --rb-light: #5EC0CF;
-    --rb-text: #fff;
-}
-
 /* Wrapper */
 .rb-footer {
     background: var(--rb-blue);
-    color: var(--rb-text);
+    color: var(--rb-text-white);
     padding: 80px 32px 30px;
 }
 
@@ -230,7 +331,7 @@ img.custom-logo {
     font-size: 17px;
     font-weight: 600;
     line-height: 1.3;
-    color: var(--rb-text);
+    color: var(--rb-text-white);
     text-decoration: none;
 }
 
@@ -257,7 +358,7 @@ img.custom-logo {
 }
 
 .rb-footer__line a {
-    color: var(--rb-text);
+    color: var(--rb-text-white);
     text-decoration: none;
 }
 
@@ -350,7 +451,28 @@ img.custom-logo {
 }
 
 
+/* ============================================
+   RESPONSIVE 
+============================================ */
 
+@media (max-width: 1600px) {
+    .hero-boog-anim {
+        height: 90%; 
+    }
+}
+
+@media (max-width: 1300px) {
+    .hero-boog-anim {
+        height: 90%; 
+    }
+}
+
+@media (max-width: 1024px){
+  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+  .hero-visual { order: 2; }
+  .hero-boog-anim { width: 46vw; right: -32px; }
+  .hero-photo-card { margin: 0 auto; }
+}
 
 /* ============================================
    RESPONSIVE (TABLET)
@@ -369,6 +491,11 @@ img.custom-logo {
    RESPONSIVE (MOBIEL)
 ============================================ */
 @media (max-width: 600px) {
+    .hero-boog-anim { 
+        width: 60vw; 
+        right: -24px; 
+    }
+
     .rb-footer__inner {
         grid-template-columns: 1fr;
         gap: 40px;
