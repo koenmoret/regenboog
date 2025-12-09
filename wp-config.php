@@ -3,7 +3,7 @@
 define('DB_NAME', 'regenboog');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');          // XAMPP default is leeg
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
 

@@ -78,6 +78,14 @@ function regenboog_enqueue_gsap() {
         null,
         true
     );
+
+     wp_enqueue_script(
+        'regenboog-hero-animations',
+        get_stylesheet_directory_uri() . '/js/hero-animations.js',
+        array('gsap'),
+        null,
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'regenboog_enqueue_gsap');
 
