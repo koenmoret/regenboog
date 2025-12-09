@@ -32,7 +32,7 @@ h1 {
     line-height: 64px;
     letter-spacing: 0%;
 }
-p {
+p, span, li {
     font-family: Poppins;
     font-weight: 500;
     font-size: 1rem;
@@ -193,7 +193,7 @@ img.custom-logo {
     position: absolute!important;
     top: 0;
     right: -40px;
-    width: 32vw;     /* schaalbaar */
+    width: 32vw!important;     /* schaalbaar */
     height: auto;
     opacity: 0;      /* start voor GSAP */
     z-index: 1 !important; 
@@ -215,6 +215,11 @@ img.custom-logo {
   grid-template-columns: 1.1fr 0.9fr;  /* verhouding tekst/foto */
   align-items: center;
   gap: 48px;
+}
+
+.hero-copy {
+    display: flex;
+    align-items: center;
 }
 
 /* Tekststijl */
@@ -260,15 +265,12 @@ img.custom-logo {
   border-color: var(--rb-light)!important;
 }
 
-/* Fotokaart rechts – afgeronde vorm + schaduw */
+/* Fotokaart rechts */
 .hero-photo-card {
   position: relative;
   width: min(560px, 44vw);
   margin-left: auto;
-  border-radius: 220px 220px 28px 220px; /* rond aan 3 kanten, kleine radius rechts-onder */
   overflow: hidden;
-  box-shadow: 0 18px 36px rgba(0,0,0,.18);
-  background: #fff;
 }
 
 .hero-photo-card img {
@@ -357,7 +359,7 @@ img.custom-logo {
     margin: 0;
 }
 
-.rb-footer__line a {
+.rb-footer__line a, span {
     color: var(--rb-text-white);
     text-decoration: none;
 }
@@ -457,27 +459,84 @@ img.custom-logo {
 
 @media (max-width: 1600px) {
     .hero-boog-anim {
-        height: 90%; 
+        width: 28vw!important;
+        right: -30px;
     }
 }
 
 @media (max-width: 1300px) {
+    .ast-container, .hero-inner {
+        max-width: 1220px!important;
+    }
     .hero-boog-anim {
-        height: 90%; 
+        width: 32vw!important;
+        right: -20px;
+    }
+
+    .hero-title {
+        font-size: 3.4rem;
     }
 }
 
 @media (max-width: 1024px){
-  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
-  .hero-visual { order: 2; }
-  .hero-boog-anim { width: 46vw; right: -32px; }
-  .hero-photo-card { margin: 0 auto; }
+  .section-hero {
+        min-height: auto !important; /* geen geforceerde 100vh irritatie */
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr; 
+        gap: 48px;
+    }
+
+    .hero-photo-card {
+        margin: 0 auto;
+        width: min(480px, 60vw);
+    }
+
+    .hero-title {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .hero-lead {
+        text-align: center;
+        margin: 0 auto 20px auto !important;
+    }
+
+    .hero-cta {
+        justify-content: center;
+    }
+
+    .hero-boog-anim { 
+        width: 48vw!important; 
+        right: -20px; 
+        top: -10px;
+        opacity: 0; 
+    }
+
+    .hero-copy {
+        align-items: center;
+    }
 }
 
 /* ============================================
    RESPONSIVE (TABLET)
 ============================================ */
 @media (max-width: 992px) {
+    .hero-title {
+        font-size: 2.8rem;
+    }
+
+    .hero-boog-anim {
+        width: 60vw!important;
+        right: -10px;
+    }
+
+    .hero-photo-card {
+        width: min(420px, 70vw);
+    }
     .rb-footer__inner {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
@@ -491,9 +550,43 @@ img.custom-logo {
    RESPONSIVE (MOBIEL)
 ============================================ */
 @media (max-width: 600px) {
+    .section-hero {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        min-height: auto !important;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+        line-height: 1.1;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .hero-lead {
+        font-size: 1rem;
+        margin: 12px auto 24px auto !important;
+        padding: 0 12px;
+    }
+
     .hero-boog-anim { 
-        width: 60vw; 
-        right: -24px; 
+        width: 75vw!important;
+        right: -20px; 
+        top: -20px;
+    }
+
+    .hero-photo-card {
+        width: 80vw;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .btn .wp-block-button__link {
+        width: 100%;
     }
 
     .rb-footer__inner {
