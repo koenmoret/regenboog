@@ -7,18 +7,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const ctas   = document.querySelectorAll(".hero-cta a");
 
     const tl = gsap.timeline({
-        defaults: { duration: 1, ease: "power3.out", opacity: 0 }
+        defaults: { duration: 1, ease: "power3.out" }
     });
 
-    tl.add("start"); // 👉 alles tegelijk starten
+    tl.add("start"); // alles tegelijk starten
 
-    // 🌈 SNELLERE boog animatie
+
+    // 🌈 1. Oranje boog animatie (SNELLER)
     if (boog) {
-        tl.fromTo(boog, 
+        tl.fromTo(
+            boog,
             {
                 opacity: 0,
-                rotate: 25,        // iets minder rotatie → voelt sneller
-                scale: 0.94,       // licht vergroot → snappy
+                rotate: 25,
+                scale: 0.94,
                 y: -40,
                 x: 40,
                 transformOrigin: "90% 40%"
@@ -29,43 +31,77 @@ document.addEventListener("DOMContentLoaded", function () {
                 scale: 1,
                 y: 0,
                 x: 0,
-                duration: 1.0,     // ⚡ sneller!
-                ease: "power2.out" // ⚡ betere snelheid-curve
+                duration: 1.0,
+                ease: "power2.out"
             },
         "start");
     }
 
-    // 🖼 Foto: slide-in van links
+
+    // 🖼 2. Foto: fade + slide-in van links
     if (photo) {
-        tl.from(photo, {
-            x: -60,
-            opacity: 0,
-            duration: 1.2
-        }, "start");
+        tl.fromTo(
+            photo,
+            {
+                opacity: 0,
+                x: -60,
+                y: 0
+            },
+            {
+                opacity: 1,
+                x: 0,
+                y: 0,
+                duration: 1.2
+            },
+        "start");
     }
 
-    // 🔠 Titel
+
+    // 🔠 3. Titel fade-up
     if (title) {
-        tl.from(title, {
-            y: 20,
-            opacity: 0
-        }, "start");
+        tl.fromTo(
+            title,
+            {
+                opacity: 0,
+                y: 20
+            },
+            {
+                opacity: 1,
+                y: 0
+            },
+        "start");
     }
 
-    // 📄 Lead
+
+    // 📄 4. Lead fade-up
     if (lead) {
-        tl.from(lead, {
-            y: 20,
-            opacity: 0
-        }, "start");
+        tl.fromTo(
+            lead,
+            {
+                opacity: 0,
+                y: 20
+            },
+            {
+                opacity: 1,
+                y: 0
+            },
+        "start");
     }
 
-    // 🔘 CTA’s tegelijk
+
+    // 🔘 5. CTA-buttons tegelijk
     if (ctas.length) {
-        tl.from(ctas, {
-            y: 12,
-            opacity: 0
-        }, "start");
+        tl.fromTo(
+            ctas,
+            {
+                opacity: 0,
+                y: 12
+            },
+            {
+                opacity: 1,
+                y: 0
+            },
+        "start");
     }
 
 });

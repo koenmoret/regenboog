@@ -231,16 +231,22 @@ img.custom-logo {
   color: var(--rb-blue);  /* Regenboog blauw */
   margin: 0 0 24px;
   padding-left: 10px;
+  opacity: 0;      /* start voor GSAP */
 }
 
 .hero-lead {
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--rb-text);
   margin: 0 0 20px 0!important;
+  opacity: 0;      /* start voor GSAP */
 }
 
 /* CTA’s */
-.hero-cta { display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-cta { 
+    display: flex; 
+    gap: 16px; 
+    flex-wrap: wrap; 
+}
 
 .btn .wp-block-button__link {
   display: inline-flex; align-items: center; justify-content: center;
@@ -252,6 +258,7 @@ img.custom-logo {
   font-weight: 600; 
   text-decoration: none;
   transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+  opacity: 0;      /* start voor GSAP */
 }
 
 .btn-primary .wp-block-button__link {
@@ -271,6 +278,7 @@ img.custom-logo {
   width: min(560px, 44vw);
   margin-left: auto;
   overflow: hidden;
+  opacity: 0;      /* start voor GSAP */
 }
 
 .hero-photo-card img {
