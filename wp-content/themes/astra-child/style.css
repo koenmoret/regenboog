@@ -23,7 +23,7 @@ Version: 1.0.0
     border-radius: 4px !important;
 }
 
-h1 {
+h1, h2 {
     font-family: Poppins;
     font-weight: 700;
     font-style: Bold;
@@ -32,7 +32,10 @@ h1 {
     line-height: 64px;
     letter-spacing: 0%;
 }
-p, span, li {
+h2 {
+    font-size: 3em;
+}
+p, span, li, .uagb-button__link {
     font-family: Poppins;
     font-weight: 500;
     font-size: 1rem;
@@ -201,7 +204,6 @@ img.custom-logo {
     pointer-events: none;
 }
 
-
 .hero-inner {
   position: relative;
   z-index: 10 !important;        /* boven de boog */
@@ -288,6 +290,38 @@ img.custom-logo {
   object-fit: cover;
 }
 
+/* ============================================
+   INTRO – REGENBOOG
+============================================ */
+
+.intro-inner {
+  background: linear-gradient(
+    90deg,
+    #1E4C9B 0%,
+    #3FAC58 50%,
+    #FBC049 100%
+  );
+  border-radius: 30px;
+}
+
+.intro-inner_div {
+    max-width: 500px!important;
+}
+.intro-titel, .intro-tekst {
+    color: #FFF!important;
+}
+.intro-titel {
+    max-width: 230px;
+}
+.section-intro .btn .wp-block-button__link {
+    color: var( --rb-text);
+    border-color: var(--rb-light) !important;
+    background: #ffffff73 !important;  
+}
+
+.section-intro .btn .wp-block-button__link {
+    opacity: 1;
+}
 
 
 /* ============================================
