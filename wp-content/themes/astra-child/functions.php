@@ -71,6 +71,15 @@ function regenboog_enqueue_gsap() {
         true
     );
 
+    // ScrollTrigger plugin
+    wp_enqueue_script(
+        'gsap-scrolltrigger',
+        'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js',
+        array('gsap'),
+        null,
+        true
+    );
+
     wp_enqueue_script(
         'regenboog-header-animations',
         get_stylesheet_directory_uri() . '/js/header-animations.js',
@@ -79,9 +88,17 @@ function regenboog_enqueue_gsap() {
         true
     );
 
-     wp_enqueue_script(
+    wp_enqueue_script(
         'regenboog-hero-animations',
         get_stylesheet_directory_uri() . '/js/hero-animations.js',
+        array('gsap'),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'regenboog-intro-animations',
+        get_stylesheet_directory_uri() . '/js/intro-animations.js',
         array('gsap'),
         null,
         true

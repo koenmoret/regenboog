@@ -4,4 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){ window.addEventListene
 window.addEventListener( 'load', function() {
 	UAGBButtonChild.init( '.uagb-block-ae044259' );
 });
+window.addEventListener( 'load', function() {
+	UAGBButtonChild.init( '.uagb-block-14eb879d' );
+});
  });
