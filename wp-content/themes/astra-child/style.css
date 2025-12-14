@@ -24,10 +24,10 @@ Version: 1.0.0
 }
 
 h1, h2 {
-    font-family: Poppins;
+    font-family: Poppins!important;
     font-weight: 700;
     font-style: Bold;
-    font-size: 58px;
+    font-size: 4em;
     color: var(--rb-blue)!important;
     line-height: 64px;
     letter-spacing: 0%;
@@ -226,10 +226,8 @@ img.custom-logo {
 
 /* Tekststijl */
 .hero-title {
-  font-family: Georgia, "Times New Roman", serif; /* vervang met jouw font */
   font-weight: 800;
   line-height: 1.05;
-  font-size: 4rem;
   color: var(--rb-blue);  /* Regenboog blauw */
   margin: 0 0 24px;
   padding-left: 10px;
@@ -237,7 +235,6 @@ img.custom-logo {
 }
 
 .hero-lead {
-  font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--rb-text);
   margin: 0 0 20px 0!important;
   opacity: 0;      /* start voor GSAP */
@@ -293,17 +290,21 @@ img.custom-logo {
 /* ============================================
    INTRO – REGENBOOG
 ============================================ */
-
+.section-intro {
+    opacity: 0;      /* start voor GSAP */
+}
 .intro-inner {
   background: linear-gradient(
     90deg,
     #1E4C9B 0%,
     #3FAC58 50%,
     #FBC049 100%
-  );
+  )!important;
   border-radius: 30px;
 }
-
+.intro-inner::before {
+    opacity: 0.2!important;
+}
 .intro-inner_div {
     max-width: 500px!important;
 }
@@ -318,7 +319,6 @@ img.custom-logo {
     border-color: var(--rb-light) !important;
     background: #ffffff73 !important;  
 }
-
 .section-intro .btn .wp-block-button__link {
     opacity: 1;
 }
