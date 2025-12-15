@@ -103,6 +103,14 @@ function regenboog_enqueue_gsap() {
         null,
         true
     );
+
+    wp_enqueue_script(
+        'regenboog-generations-animations',
+        get_stylesheet_directory_uri() . '/js/generations-animations.js',
+        array('gsap'),
+        null,
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'regenboog_enqueue_gsap');
 
