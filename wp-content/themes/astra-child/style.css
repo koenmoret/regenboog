@@ -595,6 +595,9 @@ img.custom-logo {
     .hero-photo-card {
         width: min(420px, 70vw);
     }
+    .section-intro {
+        padding: 100px 40px 0 40px!important;
+    }
     .rb-footer__inner {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
